@@ -28,4 +28,4 @@ deploy:
 	cd _site && git config user.name CircleCI
 	cd _site && git commit -m "Generated on `date`"
 	cd _site && git remote add origin ${REPO}
-	cd _site && git push -f origin gh-pages
+	cd _site && git push -f origin master:gh-pages
