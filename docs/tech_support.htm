@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Empires Player Guide : Tech Support</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<h1>Empires Player Guide</h1>
+		<div class="content">
+		<h3 style="background-color:#E7E7E7;margin-top:0px">Table of contents:</h3>
+			<div class="menu">
+                General Information:
+                <br />
+				<div class="menu-item"><a href="index.htm">Getting Started</a></div>
+				<div class="menu-item"><a href="maps_and_gameplay.htm">Maps &amp; Gameplay</a></div>
+                <div class="menu-item"><a href="some_general_pointers.htm">Some General Pointers</a></div>
+                <div class="menu-item">Tech Support</div>
+            </div>
+            
+            <div class="menu">
+                Infantry Gameplay:
+                <br />
+				<div class="menu-item"><a href="classes_and_skills.htm">Classes &amp; Skills</a></div>
+				<div class="menu-item"><a href="squads.htm">Squads</a></div>
+                <div class="menu-item"><a href="infantry_tips.htm">Infantry Tips</a></div>
+                <div class="menu-item"><a href="weapons_appendix.htm">Weapons Appendix</a></div>
+			</div>
+
+			<div class="menu">
+                Vehicle Gameplay:
+                <br />
+                <div class="menu-item"><a href="vehicle_customization.htm">Vehicle Customization</a></div>
+                <div class="menu-item"><a href="vehicle_tips.htm">Vehicle Tips</a></div>
+                <div class="menu-item"><a href="vehicle_chassis_appendix.htm">Vehicle Chassis Appendix</a></div>
+				<div class="menu-item"><a href="vehicle_payload_appendix.htm">Vehicle Payload Appendix</a></div>
+            </div>
+                
+			<div class="menu">
+				Commanding Gameplay:
+                <br />
+                <div class="menu-item"><a href="commanding_and_research.htm">Commanding &amp; Research</a></div>
+				<div class="menu-item"><a href="structures_appendix.htm">Structures Appendix</a></div>
+				<div class="menu-item"><a href="research_tree_appendix.htm">Research Tree Appendix</a></div>
+				<div class="menu-item"><a href="commanding_tips.htm">Commanding Tips</a></div>
+			</div>
+			
+			<br />
+			<br />
+            <br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+		</div>
+
+		<h2 id="page13">Tech Support</h2>
+		
+		<div class="content">
+			<p>
+			Empires is a very demanding game, and stresses a lot of the Source 
+			engine's capabilities to its limit, aswell as requiring a lot from 
+			your computer. Foll<span lang="en-gb">owing</span> are several suggestions, fixes and optimization commands for known problems:
+			</p>
+			<h3 class="large">Configuration choices</h3>
+			<h3>Launch Options</h3>
+			<p>First off, many of the client optimization commands have to be inserted into the Launch Options window, which can be reached by following these steps:<img src="pictures/launchoptions.gif"/ style="float:right">
+<ul>
+<li>Left-click on the Steam tray icon.</li>
+<li>Select "Games".</li>
+<li>Click on the "My Games" tab.</li>
+<li>Right-click on "Empires".</li>
+<li>Select "Properties".</li>
+<li>Click on the "General" tab.</li>
+<li>Click on the "Set Launch Options" button.</li>
+<li>Put in the text box: COMMAND<span lang="en-gb"> (e.g. -heapsize (size in 
+bytes) -novid etc.)</span></li>
+<li>Click "OK".</li>
+<li>Click "Close".</li>
+</ul>
+			</p>
+			<h3>Setting up Autoexec.cfg</h3>
+			<p>
+			Most of the optimization commands can also be put into a special configuration file called "autoexec.cfg" which should reside in your Steam\SteamApps\<span lang="en-gb">Yourusername</span>\Empires\cfg\ folder (you can create this file via Notepad if it does not yet exist.) As its name suggests, the commands in this file are executed every time you start up Empires, so that you don't have to type them in the console every time or put them in the Launch Options.<br/><br/>Keep in mind that the syntax for the commands changes slightly in Autoexec.cfg as opposed to the Launch Options window. You should not use the -/+ prefix in front of the commands, and the values do not need to be contained in double-quotes:
+<br/><br/>
+<i>sv_forcepreload 1</i> in Autoexec.cfg
+<br/><br/>
+as opposed to:<br/>
+<br/>
+<i>+sv_forcepreload "1"</i> in Launch Options. 
+			</p>
+		<h3 class="large">Troubleshooting</h3>
+		<h3>I fell under the map / I got stuck in the map!</h3>
+		<p>
+		Open up the console <strong>( "~" (tilde) key by default)</strong> and use the <strong>emp_unstuck</strong> command.<span lang="en-gb"> 
+		This can also usually be activated by typing !unstuck in global chat
+		<strong>(&quot;Y&quot; by default)</strong>.</span><br/><br/>
+		If this does not work, attempt to suicide (using grenades) in the game when that happens. Do not kill any enemies or enemy buildings if under the map, because you may be (permanently) banned from the server if you do that. Another possibility is to go to spectator mode <strong>("n" by default)</strong>, which will suicide you, and then to your faction again. If you enabled the console in the game options, you can also suicide by opening it <strong>( "~" (tilde) key by default)</strong>, typing "kill" (without quotes) and pressing the Enter key. 
+		</p>
+		<h3> I'm playing on a resolution under 1024x768, and some parts of the vehicle customization screen are hidden!</h3>
+		<p>
+		Empires has a recommended minimum resolution of 1024x768 and an absolute minimum of 800x600. It's still possible to use the vehicle customization screen at 800x600, but the edges of the window will be obscured. 
+		</p>
+		<h3> Some textures are just pink/black in a checkered formation! / Some models show up as gigantic ERROR words!</h3>
+		<p>
+		It is possible you have <span lang="en-gb">some corrupted files. This 
+		can be fixed by exiting the game. <strong>Going to the steam games menu 
+		then right clicking on Empires. After this click Properties-&gt; Local 
+		Files -&gt; Verify Integrity of Game cache.</strong> This will take a few 
+		minutes. If the error persists after this please make a support thread 
+		on the <a href="forums.empiresmod.com">Empires forums</a> including 
+		details of the problem.</span></p>
+		<h3>When joining a server, I get a "Server uses different class tables" error message!</h3>
+		<p>There is a version difference between your client install and the 
+		server install. It <span lang="en-gb">is</span> possible that the server 
+		has not yet been updated to the most recent version<span lang="en-gb">.</span> See if the problem goes away when joining another server.</p>
+		<h3>My game preferences / keyboard binds are reset whenever I start the game!</h3>
+		<p>
+		Make sure your .cfg files (found in Steam/Steamapps/USERNAME/Empires/config/ ) are NOT read-only. You can check this by right-clicking on the file, selecting "properties" and looking at the "Attributes" below.
+		</p>
+		<h3>My player view keeps on rotating around by itself!</h3>
+		<p>
+		Go to 'Options' --> 'Mouse' and disable the joystick / gamepad option.
+		</p>
+		<h3> The game takes incredibly long to load!</h3>
+		<p>
+		A good idea is to make the heapsize bigger. The heapsize is like virtual RAM, used only by the game. This means that your computer can keep textures and other game information handy without having to search for it on your hard drive. This often results in faster loading times. The first time the game loads it will still be quite slow, but when changing maps, you'll surely notice the difference. The default heapsize is 64 MB (65536 bytes).<br/>
+		<br/>
+		You can specify your heapsize by typing this into the Launch Options text box: heapsize NUMBER<br/>
+		<br/>
+		It's a good idea to make your heapsize half the size of your actual RAM<span lang="en-gb">, 
+		but no more than 2GB</span>. To find out how much RAM you have, follow these steps: Press the Start button and select 'Run...'. Now type 'dxdiag' (without the quotes) into the window that has just appeared.<br/>
+		<br/>
+		After a while a window will pop up. (If it doesn't, fire up Google and look for 'DirectX 9.0c Download'.)<br/>
+		<br/>
+		Your amount of RAM can be found under the 'System Tab' (Called "Memory").<br/>
+		<br/>
+		<br/>
+		You must type the heapsize in kilobytes. An example:<br/>
+		<br/>
+		256 MB RAM would be 262144 kilobytes. Which means that your heapsize should be 128 MB or 131072 kilobytes, so the final text would be "-heapsize 131072".<br/>
+		<br/>
+		More examples:<br/>
+		<br/>
+		512 MB RAM: 524288 kilobytes (Heapsize = 262144 kilobytes)<br/>
+		1024 MB RAM: 1048576 kilobytes (Heapsize = 524288 kilobytes)<br/>
+		2048 MB RAM: 2097152 kilobytes (Heapsize = 1048576 kilobytes)<br/>
+		<br/><br/>
+		It's also best to add:<br/>
+		<br/>
+		+sv_forcepreload "1" (Preloads game assets at start of level)<br/>
+		+cl_forcepreload "1" (Preloads game assets at start of level too)<br/>
+		<br/>
+		-novideo or -novid (Skips the introductory video)<br/><br/>
+You can combine the commands, separating them by a space: -heapsize NUMBER +sv_forcepreload "1" +cl_forcepreload "1" -novideo 
+		</p>
+		<h3> I'm getting very low FPS!</h3>
+		<p>
+		Firstly, try lowering the model and texture detail, resolution, disable HDR and motion blur. Don't go below 1024X786 for resolution<span lang="en-gb"> 
+		if you can help it</span>, though!<br/> You can also remove bumpmapping and specularity, which will make the game less beautiful, but give it incredible FPS boosts (sometimes up to more than 40 FPS). You can remove them by adding the following commands in the Launch Options text box:
+<br/><br/>
++mat_bumpmap "0" +mat_specular "0"
+		</p>
+		<h3>I keep crashing with an error: "Internal driver error in IDirect3DDevice9::Present()" !</h3>
+		<p>
+		Update your video card drivers and DirectX to the most recent versions.<br/>
+		If you are running AVG / NOD32, <span lang="en-gb">disable</span> it, as it may cause problems with Source-based games.<br/>
+		If this still occurs, please consult the <strong>Steam Diagnosis Tool</strong>, which automatically checks for any programs, drivers or services that may interfere with Steam and Source games: <a href="steam://support/?Issues=*">steam://support/?Issues=*</a>.
+		</p>
+		<h3>I keep crashing with an error: "Failed to lock vertex buffer in CMeshDX8:: lockVertexBuffer" !</h3>
+		<p>
+		This issue usually means you are unable to run in DX8 mode. Try running in DX7 or DX9 mode:<br/>
+<br/>
+-dxlevel 70 (for DX7)<br/>
+-dxlevel 90 (for DX9)<br/>
+This can also be caused by too little Paged Pool Memory, for which you can find a fix below.
+</p>
+		<h3>I keep crashing mid-game! This happens to all my Source Games!</h3>
+		<p>
+		<strong>PLEASE NOTE THAT THIS TWEAK INVOLVES EDITING THE REGISTRY. If you are inexperienced with this, please get someone knowledgeable to help you.</strong><br/>
+		These mid-game crashes are often the source of an insufficient page pool. Following are directions for increasing it. Please keep in mind that you can only increase your page pool up to your maximum amount of RAM. This is not advised, however. If you do not know how much RAM you have, please consult the walkthrough for it under "The game takes incredibly long to load!".<br/><br/>
+		First, open the Registry Editor: <strong>Start Menu --> Run --> Type in: regedit</strong><br/><br/>
+		Scroll down to this key. The REG_DWORD <strong>"PagedPoolSize"</strong><br/><br/>
+		Location: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management<br/><br/>
+		Double click on "PagedPoolSize". Hexadecimal is listed first. Change the "Value Data" to one of these below:<br/>
+		<strong>Note:</strong> You only need to enter EITHER Hexadecimal or Decimal. They both are the same.<br/>
+		<table border="1" cellpadding="2">
+		<tr>
+		<td>Megabytes</td><td>Hexadecimal</td><td>Decimal</td>
+		</tr><tr>
+		<td>192MB</td><td>0c000000</td><td>201326592</td>
+		</tr><tr>
+		<td>256MB</td><td>10000000</td><td>268435456</td>
+		</tr><tr>
+		<td>384MB</td><td>18000000</td><td>402653184</td>
+		</tr>
+		</table><br/>
+		You do not need anything bigger than 400MB... in most cases 300MB is too much as well.<br/><br/>
+		Once you are done, make sure you reboot your computer.
+		</p>
+		<h3>After all these suggestions, I still can't play / keep crashing!</h3>
+		<p>
+		I'm sorry, but we are unable to help you. A handy program that may aid you is the <strong>Steam Diagnosis Tool</strong>, which automatically checks for any programs, drivers or services that may interfere with Steam and Source games:<br/><br/>
+		<a href="steam://support/?Issues=*">steam://support/?Issues=*</a><br/><br/>
+		You can also request help on the official <a href="http://forums.empiresmod.com/index.php">Empires Forums</a>, ask on the <a href="http://www.steampowered.com/v/index.php?area=forums">Steam Forums</a>, search for issues in the <a href="http://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/home.php">Steam Support Center</a> or ask members of <a href="http://www.halflife2.net/forums/forumdisplay.php?f=18">Halflife2.net</a>.
+		</p>
+		</div>
+
+		<p style="text-align: right;">
+			Next section: <a href="classes_and_skills.htm" title="next section">Classes &amp; Skills</a> : <a href="#">Top</a>
+		</p>
+	</body>
+</html>
