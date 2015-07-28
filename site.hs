@@ -22,6 +22,20 @@ main = hakyll $ do
     match "docs/*" $ do
         route   idRoute
         compile copyFileCompiler
+        
+    match "static-html/*" $ do
+        route   idRoute
+        compile $
+            loadAndApplyTemplate     "templates/static.html"  postCtx
+            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= relativizeUrls
+    
+    match "static-md/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/static.html"  postCtx
+            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= relativizeUrls
 
     match "posts/*" $ do
         route $ setExtension "html"
