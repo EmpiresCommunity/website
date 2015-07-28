@@ -25,8 +25,9 @@ main = hakyll $ do
         
     match "static-html/*" $ do
         route   idRoute
-        compile $
-            loadAndApplyTemplate     "templates/static.html"  postCtx
+        compile $ do
+            getResourceBody
+            >>= loadAndApplyTemplate "templates/static.html"  postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
     
