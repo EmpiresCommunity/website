@@ -10,7 +10,7 @@ if ( itEntity->m_pRenderable )
 	NULL; //
 ```
 
-![A monkey coding][monkey]
+![monkey]
 	
 It is tempting to think that some idiot must have caused this - someone who writes bad code. "This can't happen to our codebase, because we only employ good programmers." Unfortunately, I have found that the worst code occurs where many programmers make changes to the same piece. Design smells especially, which only become apparent after the originally very clear, simple class with a single responsibility has been modified and extended here and there, slowly emerge, turning good code into a mess. With static analysis, we can often spot symptoms of bad design, highlight the real problem and fix it.
 
