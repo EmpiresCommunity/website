@@ -3,7 +3,7 @@ title: Static analysis with PVS-Studio
 author: Tama
 ---
 
-For the past few weeks, I've been using [PVS-Studio](http://www.viva64.com/) to analyse the Empiresmod source code. In the process, I have found some horrendous bugs, memory leaks, and undefined behaviour that have hidden unseen for years, potentially causing crashes in unrelated parts of the code. I hope to convince you that static analysis is an indispensible tool for any developer, especially those coding in a language as permissive as C++. Many of the warnings PVS-Studio gave lead me to read C++ code I would not have thought was valid, and which definitely was not intended as it is written today. Sadly, it is often difficult to reconstruct the intent of the programmer writing code such as:
+For the past few weeks, I've been using [PVS-Studio](http://www.viva64.com/) to analyse the Empiresmod source code. In the process, I have found some horrendous bugs, memory leaks, and undefined behaviour that have hidden unseen for years, potentially causing crashes in unrelated parts of the code. I hope to convince you that static analysis is an indispensible tool for any developer, especially those coding in a language as permissive as C++. Many of the warnings indicated by PVS-Studio lead me to read C++ code I would not have thought was valid, and which definitely was not intended as it is written today. Sadly, it is often difficult to reconstruct the intent of the programmer writing code such as:
 
 ```c++
 if ( itEntity->m_pRenderable )
