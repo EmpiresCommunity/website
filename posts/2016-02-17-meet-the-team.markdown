@@ -7,7 +7,7 @@ In October 2015, Beerdude passed the torch to Catface and Tama as lead developer
 
 ---
 
-![Tama's profile image](/img/profiles/tama.png)
+![Tama's profile image](/img/profiles/tama.jpg)
 
 Tama (steam: Bob2)
 
