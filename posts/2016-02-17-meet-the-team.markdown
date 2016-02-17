@@ -57,7 +57,7 @@ I'm relatively new to Empires but really love the idea of combining RTS with rea
 
 ---
 
-![VulcanStorm's profile image](/img/profiles/unknown.png)
+![VulcanStorm's profile image](/img/profiles/vulcanstorm.jpg)
 
 VulcanStorm: 
 
