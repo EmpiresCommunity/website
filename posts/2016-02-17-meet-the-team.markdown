@@ -65,3 +65,10 @@ I would say that I'm a newer player than most as I picked up the game in 2013, l
 
 As for what I've done since I've been here, well I've been bug hunting and testing mostly, whilst I learn the whole dev system. For example: I realised that scout/ rifleman have their passive skills swapped, so neither of them benefitted from armour or binoculars. This has since been fixed for the 2.7 update :)
 
+---
+
+![Sgt.Security's profile image](/img/profiles/sgtsecurity.jpg)
+
+Sgt.Security:
+
+I started playing Empires all the way back in 2006 and have been mostly a regular player. Empires has been a really attractive game that never received enough attention. I joined the development team in December 2015 as a scripter. I believe experience and a firm grasp of the gameplay are both required to create a balanced script. As probably the most experienced player among all previous scripters, I will make good uses of my understanding of this game to create a better script. Due to considerations, only NF heavy tank modifications are being released in 2.7.0, I should be able to deliver much more modifications in 2.7.1, bear with us!
