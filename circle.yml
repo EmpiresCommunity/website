@@ -1,4 +1,7 @@
 # This is the configuration file for circleci.com (CI which builds the site)
+machine:
+  ghc:
+      version: 7.8.4
 
 dependencies:
   cache_directories:
