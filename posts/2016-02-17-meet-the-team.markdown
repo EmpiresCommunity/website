@@ -7,7 +7,7 @@ In October 2015, Beerdude passed the torch to Catface and Tama as lead developer
 
 ---
 
-![Tama's profile image](/img/profiles/tama.jpg)
+![Tama's profile image](img/profiles/tama.jpg)
 
 Tama (steam: Bob2)
 
@@ -15,7 +15,7 @@ I've loved Empires since I first encountered it in 2009. After studying computer
 
 ---
 
-![Redskull's profile image](/img/profiles/redskull.jpg)
+![Redskull's profile image](img/profiles/redskull.jpg)
 
 Redskull (steam: Ϟ|JFR|Ϟ Rhymes)
 
@@ -23,7 +23,7 @@ I was introduced to Empires by a friend around 2007 and have been playing since 
 
 ---
 
-![f1r3w4rr10r's profile image](/img/profiles/f1r3w4rr10r.jpg)
+![f1r3w4rr10r's profile image](img/profiles/f1r3w4rr10r.jpg)
 
 f1r3w4rr10r (steam: [HERD] f1r3w4rr10r | U!)
 
@@ -31,7 +31,7 @@ I discovered Empires back when it was still version 2.12 I believe. Back then it
 
 ---
 
-![Smithy's profile image](/img/profiles/smithy.jpg)
+![Smithy's profile image](img/profiles/smithy.jpg)
 
 Smithy (steam: Smithy)
 
@@ -41,7 +41,7 @@ https://forums.empiresmod.com/index.php?threads/smithys-art-adventures.18794/
 
 ---
 
-![Wealthysoup's profile image](/img/profiles/wealthysoup.jpg)
+![Wealthysoup's profile image](img/profiles/wealthysoup.jpg)
 
 Wealthysoup:
 
@@ -49,7 +49,7 @@ Definitely a longer term player, I started playing Empires when V1.0 was release
 
 ---
 
-![Thexa's profile image](/img/profiles/thexa.jpg)
+![Thexa's profile image](img/profiles/thexa.jpg)
 
 Max Maton (Thexa4)
 
@@ -57,7 +57,7 @@ I'm relatively new to Empires but really love the idea of combining RTS with rea
 
 ---
 
-![VulcanStorm's profile image](/img/profiles/vulcanstorm.jpg)
+![VulcanStorm's profile image](img/profiles/vulcanstorm.jpg)
 
 VulcanStorm: 
 
@@ -67,7 +67,7 @@ As for what I've done since I've been here, well I've been bug hunting and testi
 
 ---
 
-![Sgt.Security's profile image](/img/profiles/sgtsecurity.jpg)
+![Sgt.Security's profile image](img/profiles/sgtsecurity.jpg)
 
 Sgt.Security:
 
