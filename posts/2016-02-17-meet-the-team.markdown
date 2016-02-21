@@ -7,7 +7,7 @@ In October 2015, Beerdude passed the torch to Catface and Tama as lead developer
 
 ---
 
-![](http://imgur.com/ZabCcNe.jpg Tama)
+![](i.imgur.com/ZabCcNe.jpg Tama)
 
 Tama (steam: Bob2)
 
@@ -15,7 +15,7 @@ I've loved Empires since I first encountered it in 2009. After studying computer
 
 ---
 
-![](http://imgur.com/fWkb8sZ.jpg Redskull)
+![](i.imgur.com/fWkb8sZ.jpg Redskull)
 
 Redskull (steam: Ϟ|JFR|Ϟ Rhymes)
 
@@ -23,7 +23,7 @@ I was introduced to Empires by a friend around 2007 and have been playing since 
 
 ---
 
-![](http://imgur.com/sSkgVOF.jpg F1r3w4rr10r)
+![](i.imgur.com/sSkgVOF.jpg F1r3w4rr10r)
 
 F1r3w4rr10r (steam: [HERD] f1r3w4rr10r | U!)
 
@@ -31,7 +31,7 @@ I discovered Empires back when it was still version 2.12 I believe. Back then it
 
 ---
 
-![](http://imgur.com/S4aF6HE.jpg Smithy)
+![](i.imgur.com/S4aF6HE.jpg Smithy)
 
 Smithy (steam: Smithy)
 
@@ -41,7 +41,7 @@ https://forums.empiresmod.com/index.php?threads/smithys-art-adventures.18794/
 
 ---
 
-![](http://imgur.com/Z92yQq6.jpg Wealthysoup)
+![](i.imgur.com/Z92yQq6.jpg Wealthysoup)
 
 Wealthysoup:
 
@@ -49,7 +49,7 @@ Definitely a longer term player, I started playing Empires when V1.0 was release
 
 ---
 
-![](http://imgur.com/CobK9bd.jpg Thexa)
+![](i.imgur.com/CobK9bd.jpg Thexa)
 
 Max Maton (Thexa4)
 
@@ -57,7 +57,7 @@ I'm relatively new to Empires but really love the idea of combining RTS with rea
 
 ---
 
-![](http://imgur.com/raKZBSH.jpg VulcanStorm)
+![](i.imgur.com/raKZBSH.jpg VulcanStorm)
 
 VulcanStorm: 
 
@@ -67,7 +67,7 @@ As for what I've done since I've been here, well I've been bug hunting and testi
 
 ---
 
-![](http://imgur.com/I4H8eYx.jpg Sgt.Security)
+![](i.imgur.com/I4H8eYx.jpg Sgt.Security)
 
 Sgt.Security:
 
