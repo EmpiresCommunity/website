@@ -7,7 +7,7 @@ In October 2015, Beerdude passed the torch to Catface and Tama as lead developer
 
 ---
 
-![Tama's profile image](../img/profiles/tama.jpg)
+![](http://imgur.com/ZabCcNe.jpg Tama)
 
 Tama (steam: Bob2)
 
@@ -15,7 +15,7 @@ I've loved Empires since I first encountered it in 2009. After studying computer
 
 ---
 
-![Redskull's profile image](../img/profiles/redskull.jpg)
+![](http://imgur.com/fWkb8sZ.jpg Redskull)
 
 Redskull (steam: Ϟ|JFR|Ϟ Rhymes)
 
@@ -23,15 +23,15 @@ I was introduced to Empires by a friend around 2007 and have been playing since 
 
 ---
 
-![f1r3w4rr10r's profile image](../img/profiles/f1r3w4rr10r.jpg)
+![](http://imgur.com/sSkgVOF.jpg F1r3w4rr10r)
 
-f1r3w4rr10r (steam: [HERD] f1r3w4rr10r | U!)
+F1r3w4rr10r (steam: [HERD] f1r3w4rr10r | U!)
 
 I discovered Empires back when it was still version 2.12 I believe. Back then it was my first online multiplayer game ever after buying the Orange Box. I actually started to get into 3D modeling because of this mod. My contributions so far (that are actually in game) is only a BE crate which is fairly old by now. Behind the scenes I did a lot of research on getting stuff into the engine, mostly on the materials side. I completely redid the faction materials, but those are not in yet. Further I have been working on new first person arms among other things. Apart from that I try to be as much help to the other modelers as I can. Right now my time is a bit limited to work on this mod though.
 
 ---
 
-![Smithy's profile image](../img/profiles/smithy.jpg)
+![](http://imgur.com/S4aF6HE.jpg Smithy)
 
 Smithy (steam: Smithy)
 
@@ -41,7 +41,7 @@ https://forums.empiresmod.com/index.php?threads/smithys-art-adventures.18794/
 
 ---
 
-![Wealthysoup's profile image](../img/profiles/wealthysoup.jpg)
+![](http://imgur.com/Z92yQq6.jpg Wealthysoup)
 
 Wealthysoup:
 
@@ -49,7 +49,7 @@ Definitely a longer term player, I started playing Empires when V1.0 was release
 
 ---
 
-![Thexa's profile image](../img/profiles/thexa.jpg)
+![](http://imgur.com/CobK9bd.jpg Thexa)
 
 Max Maton (Thexa4)
 
@@ -57,7 +57,7 @@ I'm relatively new to Empires but really love the idea of combining RTS with rea
 
 ---
 
-![VulcanStorm's profile image](../img/profiles/vulcanstorm.jpg)
+![](http://imgur.com/raKZBSH.jpg VulcanStorm)
 
 VulcanStorm: 
 
@@ -67,7 +67,7 @@ As for what I've done since I've been here, well I've been bug hunting and testi
 
 ---
 
-![Sgt.Security's profile image](../img/profiles/sgtsecurity.jpg)
+![](http://imgur.com/I4H8eYx.jpg Sgt.Security)
 
 Sgt.Security:
 
