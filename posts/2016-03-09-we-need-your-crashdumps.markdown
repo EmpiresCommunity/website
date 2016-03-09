@@ -7,6 +7,8 @@ It has come to our attention that some players are experiencing a lot of crashes
 
 While the dev team is still working on getting steam's automatic crashdump system up-and-running, here are instructions on how to get crashdump files which you can send through the [support forum](https://forums.empiresmod.com/index.php?forums/support.34/). If you send us a crashdump file, we can fix the bug. Without it, it is nigh impossible. The steps below only need to be done once, after which crashdump files will appear whenever Empires crashes.
 
+If you're reading this from in-game, first open a browser and view this on empiresmod.com so that you can follow the links.
+
 1) [Install DebugDiag](https://www.microsoft.com/en-us/download/details.aspx?id=49924)
 2) Start up "DebugDiag 2 Collection"
 3) Start up Empires
