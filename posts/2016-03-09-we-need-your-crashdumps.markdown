@@ -17,7 +17,7 @@ If you're reading this from in-game, first open a browser and view this on empir
  
 6) Select "hl2.exe" from the list of processes; it is only present if Empires is running when the window opens
 
-7) In Advanced Configuration, select "Action type for unconfigured first change exceptions: Mini Userdump" and in the "action limit" field below it, put 100. (Mini dump files are about 200 KB, so that's about 20 MB)
+7) In Advanced Configuration, select "Action type for unconfigured first change exceptions: Mini Userdump" and in both fields below it ("Action limit ..." and "Maximum number of userdumps ...", put 100. (Mini dump files are about 200 KB, so that's about 20 MB)
 
 8) Select a name, e.g. "Empires crash dumps" and a location; you will visit this folder whenever you want to send a crash report.
  
