@@ -4,7 +4,8 @@ author: Tama
 ---
 
 The twitter account @Empiresmod has been in the hands of an unknown hijacker since 2010. Back then, Trickster was project lead, and he did his best to get through to Twitter support and regain access to the account. I suspect he gave up somewhere in the maze of twitter account recovery. In the years since, I've seen tweets insulting Valve, the Source SDK and server owners. I've seen racist tweets and worse (don't ask); and all of this in the name of the Empiresmod development team, using our own account. It was clear I had to sort this out, before more bridges were burned for us.
- \
+ 
+ 
 The first step for recovering an account is of course "I forgot my password"; if you still have your email associated, that works just fine, but this hijacker has obviously already removed our email address, so we continue to ["Request help signing in to your account"](https://support.twitter.com/forms/signin?ref=password_reset). Twitter then sends you an email that assumes you're just a complete idiot who couldn't spell their email address.
 
 
