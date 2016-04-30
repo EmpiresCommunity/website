@@ -44,4 +44,4 @@ It quickly became clear that the emails are not read by humans, because I replie
 
 I think the next step for the Empiresmod team is to automate right back at them, and create scripts that automatically file these exact same complaints, say, three times per second? Clearly it's not an option to allow our organisation's twitter account to continue following pornstars and tweeting that Empiresmod is "free of n*****s".
 
-
+You can discuss [this topic on reddit](https://www.reddit.com/r/technology/comments/4h4yzc/twitter_support_is_broken/).
