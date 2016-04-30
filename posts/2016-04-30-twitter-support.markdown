@@ -8,8 +8,8 @@ The twitter account @Empiresmod has been in the hands of an unknown hijacker sin
 The first step for recovering an account is of course "I forgot my password"; if you still have your email associated, that works just fine, but this hijacker has obviously already removed our email address, so we continue to ["Request help signing in to your account"](https://support.twitter.com/forms/signin?ref=password_reset). Twitter then sends you an email that assumes you're just a complete idiot who couldn't spell their email address.
 
 
-![](http://i.imgur.com/qfRfRMC.png "You don't say!")
-
+![](http://i.imgur.com/qfRfRMC.png "You don't say!")  
+  
 
 Anyway, a few automated emails later, and they ask you for a couple of very reasonable requirements for establishing account ownership for an organisational twitter account.
 
