@@ -1,0 +1,14 @@
+---
+title: Sat July 16th 6PM UTC (1PM EST) Empires 2.9.0 - Playtest
+author: Tama
+---
+
+Next week, we expect to be ready to do balance testing for 2.9.0.
+
+[See the changelog thread for all the changes](https://forums.empiresmod.com/index.php?threads/2-9-x-testing-changelog-inside.20288/). In particular, I want to know if concs seem okay; the intention is for them to be really good when you're with teammates, but otherwise not so much. Also, test out each of the weapons mentioned in the changes to see if they're still balanced, and try out arties again.
+
+[Please post in this forum thread if you can make it](https://forums.empiresmod.com/index.php?threads/sat-july-16th-6pm-utc-1pm-est-empires-2-9-0-playtest.20314/); we hope to do three rounds.
+First a warmup on district402, when we have 16 players and both commanders we'll switch to cyclopean. Post your map suggestions for the next rounds.
+
+I'm looking for commanders, because we intend to do a bit of balance testing, we need to try for a fair game.
+
