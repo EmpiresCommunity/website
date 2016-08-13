@@ -1,0 +1,145 @@
+---
+title: Empires 2.9.0 released - Linux now supported
+author: Tama
+---
+
+Empires 2.9.0 "Battery"
+August 13, 2016
+
+* Features:
+Linux client and server, including [easy installation using LGSM](https://gameservermanagers.com/lgsm/emserver/)
+Building upgrades are now split into their own script definitions which allows values to be overridden when a building upgrades. For example turret damage can now be set when it is upgraded.
+Removed various code restrictions that meant only turrets could be upgraded. This means that new building upgrade definitions are now a possibility.
+Maximum carcass health is now defined in scripts, defaults to vehicle health.
+Concussion grenades re-added.
+Resource income now displays total income from all captured refineries and flags without using averaging; this should make it easier to notice when your income changes without random fluctuations. Resource deductions will display as and when they occur.
+Resources and wages will now display as rounded figures. This helps to make sure all the information stays visible without overlapping or going off-screen.
+Removed hardcoded layout for hud ammo indicator.
+Standing near an unbuilt refinery point shows a hint that you have to move away.
+
+* Bugfixes:
+Made walls placable in Hammer.
+Fixed the bug causing players to spawn in Barracks facing East; players will now spawn facing the nearest exit.
+Fixed a bug where an engineer could place small walls even though they hit their limit.
+Fixed persistent wall ghosts when holstering engineer tool.
+Fixed a bug where the start position of a wall would be the map origin, meaning players would be unable to place a wall until they right clicked.
+Engineer recycling no longer gives more resources when recycling without repair upgrade.
+Turrets upgrade instantly after turret upgrade research.
+Fixed scout class being named assault at the end of a round.
+Removed unused emp_sv_refinery_interval cvar.
+Made default class on start of game engineer instead of scout.
+Fixed guard order drawing outline with an extra side.
+Fixed gui images becoming blurry on low graphics settings.
+Intro video has been fixed.
+Hints should no longer show when inside a vehicle; destroyed vehicles show their own hint.
+Engineer buildables no longer block building placement for commander.
+Fixed news panel in menu.
+
+* Non-code changes:
+Added emp_money_2016 with prebuilt walls on the entrances.
+Fixed third flag on emp_escort giving Brenodi reinforcements multiple times.
+Added ocean water material for use in mapping.
+Improved NF jeep VGUI images.
+Hud style updated.
+Updated some collisions for old Brenodi props.
+
+* More detailed balancing changelog:
+NF SMG3
+Damage 40->38
+MinimalDamage 30->28
+
+StandingSpreadMax 0.3->0.25
+DuckingSpreadMax 0.2->0.17
+ProneSpreadMax 0.2->0.14
+
+StandingSpreadIncrement 0.009->0.0082
+DuckingSpreadIncrement 0.006->00055
+ProneSpreadIncrement 0.005->0.0046
+
+Sticky Grenade
+Damage 150->175
+
+Commander vehicle
+InfantryStickyResist 0->0.25
+
+Advanced Coolant Engine
+Heat Output At Max
+6->5 for AFV/LT
+7->6 for Medium
+6->5 for Heavy
+
+GL
+Gravity 1->0.92
+Cycle time 3->2.5
+Total Ammo Clips 2->4
+Reload Time 10->6
+UGL
+Gravity 0.9->0.88
+Total Ammo Clips 3->4
+Reload Time 12->8
+
+Bio MG
+Vehicle Bio Damage 3->4
+
+Plasma MG
+Damage 4->5
+Cycle time 0.4->0.35
+Heat to Target 1.6->1.8
+
+HEMG
+Projectile Spread 0.015->0.025
+DUMG & DUHMG
+Projectile Spread 0.03->0.02
+
+Guided ML
+Heat 7->7.5
+Cycle Time 1.0->1.2
+Reload Time 6.0->5.5
+
+Salvo ML
+Weight 50->60
+
+Plasma CN
+Heat 20->15
+Heat to Target 10->7
+Explosion Radius 350->325
+
+Artillery tank
+Base cost 1000->850
+
+180mm arty cannon
+Gravity 0.7->0.55
+203mm arty cannon
+Speed 1800->1900
+Gravity 0.6->0.57
+
+Scout
+Ranged arty resist 0->0.1
+Other arties resist 0->0.15
+Rifleman
+Other arties resist 0.1->0.15
+Grenadier
+Other arties resist 0.3->0.4
+Engineer
+Ranged arty resist 0->0.1
+Other arties resist 0->0.15
+
+Capacitive Armor
+Damage To Heat Absorbed 0.06->0.045
+
+Regenerative Armor
+Health 70->72
+
+Deflective armor
+Health 72->75
+Angle Modifier 0.95->0.88
+
+Absorbant Armor
+Health 66->67
+Speed to Damage Modifier -0.00011->-0.000112
+Bio Modifier 0.3->0.45
+
+NF Heavy Rifle
+Clipsize 12->10 
+
+[Discuss this on the forums.](https://forums.empiresmod.com/index.php?threads/empires-2-9-0-released.20432/#post-531866)
