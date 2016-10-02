@@ -1,6 +1,6 @@
 # Empiresmod main page
 
-The main page for [Empiresmod, a free indie RTS/FPS game](empiresmod.com) is free open source software built with Hakyll.
+The main page for [Empiresmod, a free indie RTS/FPS game](http://www.empiresmod.com/) is free open source software built with Hakyll.
 
 # Dependencies
 
@@ -20,4 +20,4 @@ cd website
 make
 ```
 
-3) (optional) If the make step failed, (open an issue)[https://github.com/EmpiresCommunity/website/issues/new] - the dependencies listed at 1 may be incomplete.
+3) (optional) If the make step failed, [open an issue](https://github.com/EmpiresCommunity/website/issues/new) - the dependencies listed at 1 may be incomplete.
