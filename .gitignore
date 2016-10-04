@@ -1,11 +1,14 @@
-cabal-dev/
-dist/
-TAGS
-cabal.sandbox.config
+/cabal-dev/
+/dist/
+/TAGS
+/cabal.sandbox.config
 
-site.exe
-site.hi
-site.o
-_cache/
-_site/
-.cabal-sandbox/
+/site
+/site.exe
+/site.hi
+/site.o
+/_cache/
+/_site/
+/.cabal-sandbox/
+/.stack-work/
+
