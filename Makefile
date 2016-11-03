@@ -1,31 +1,13 @@
-CNAME := empiresmod.com
-REPO := git@github.com:EmpiresCommunity/website.git
+site: site.hs
+	stack build
 
-EXE := dist/build/site/site
+build:
+	rm _site/* -rf
+	rm -r _cache/
+	stack exec site build
 
-all:	build
-	@true
-
-${EXE}:	site.hs
-	cabal build
-	${EXE} clean
-
-build:	${EXE}
-	${EXE} build
-
-clean:
-	${EXE} clean
-
-run:	build
-	${EXE} watch
-
-# Deploy _site to Github Pages
 deploy:
-	echo ${CNAME} > _site/CNAME
-	rm -rf _site/.git
-	cd _site && git init && git add .
-	cd _site && git config user.email "nobody@circleci.com"
-	cd _site && git config user.name CircleCI
-	cd _site && git commit -m "Generated on `date`"
-	cd _site && git remote add origin ${REPO}
-	cd _site && git push -f origin master:gh-pages
+	cd _site && git checkout -- . && git clean -df
+	cd _site && git checkout -B gh-pages origin/gh-pages
+	make build
+	cd _site && git add . && git commit -m "Built on `date` from `cd .. && git rev-parse HEAD`" && git push

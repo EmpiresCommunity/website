@@ -19,6 +19,10 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
         
+    match "CNAME" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "docs/***" $ do
         route   idRoute
         compile copyFileCompiler
