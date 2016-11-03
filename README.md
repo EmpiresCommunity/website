@@ -18,19 +18,16 @@ Install stack as described [here](https://docs.haskellstack.org/en/stable/README
 ```
 stack setup
 stack install hakyll
-stack build
 ```
-
-The last command builds an executable (check the output for the location) which can build this website from the (markdown) sources. 
 
 ## Build the website
 
-You should replace the path to site in the command below with the actual executable that the previous `stack build` command listed as having installed.
+```
+make site
+make build
+```
 
-```
-cd ~/website
-.stack-work/install/x86_64-linux/lts-2.14/7.8.4/bin/site build
-```
+The first command builds an executable from site.hs (which is in Haskell and uses the Hakyll module), which can build this website from the (markdown, html, etc.) sources. The reason we do it this way instead of plain html is that you can reduce the code and content duplication without having to use PHP (which would be less scalable). The end result is still plain html, but each piece of content can be put in exactly one place and duplicated where necessary.
 
 ## Test
 
@@ -38,7 +35,7 @@ Open ~/website/_site/index.html in a browser.
 
 ## Deploy
 
-Run `make deploy` when you are happy with the changes to deploy to github pages. You can't do this unless you have the required permissions, to force push to the gh-pages branch.
+Run `make deploy` when you are happy with the changes to deploy to github pages. You can't do this unless you have the required permissions, to push to the gh-pages branch.
 
 ## Stuck?
 
