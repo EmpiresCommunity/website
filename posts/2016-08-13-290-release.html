@@ -1,0 +1,191 @@
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/all.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/darkstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="../js/main.js" type="text/javascript"> </script>
+        
+        <title>Empires 2.9.0 released - Linux now supported</title>
+    </head>
+    <body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Empires</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="http://www.empiresmod.com">About</a></li>
+                <li><a href="http://forums.empiresmod.com">Forums</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutorials <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Knowledge Sources</li>
+                    <li><a href="../docs/quickstart/quick_start.html">Quick-Start Guide</a></li>
+                    <li><a href="../docs/index.htm">Manual</a></li>
+                    <li role="separator" class="divider"></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Development <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../static-html/team.html">The Team</a></li>
+                    <li><a href="../static-md/join.html">Join Us</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+        
+        <div class="spacer">&nbsp;</div>
+    
+        <div class="container post">
+    <h1>Empires 2.9.0 released - Linux now supported</h1>
+    <p class="author">By Tama on August 13, 2016</p>
+
+    <p>Empires 2.9.0 “Battery” August 13, 2016</p>
+<ul>
+<li>Features:</li>
+</ul>
+<p>Linux client and server, including <a href="https://gameservermanagers.com/lgsm/emserver/">easy installation using LGSM</a></p>
+<p>Building upgrades are now split into their own script definitions which allows values to be overridden when a building upgrades. For example turret damage can now be set when it is upgraded.</p>
+<p>Removed various code restrictions that meant only turrets could be upgraded. This means that new building upgrade definitions are now a possibility.</p>
+<p>Maximum carcass health is now defined in scripts, defaults to vehicle health.</p>
+<p>Concussion grenades re-added.</p>
+<p>Resource income now displays total income from all captured refineries and flags without using averaging; this should make it easier to notice when your income changes without random fluctuations. Resource deductions will display as and when they occur.</p>
+<p>Resources and wages will now display as rounded figures. This helps to make sure all the information stays visible without overlapping or going off-screen.</p>
+<p>Removed hardcoded layout for hud ammo indicator.</p>
+<p>Standing near an unbuilt refinery point shows a hint that you have to move away.</p>
+<ul>
+<li>Bugfixes:</li>
+</ul>
+<p>Made walls placable in Hammer.</p>
+<p>Fixed the bug causing players to spawn in Barracks facing East; players will now spawn facing the nearest exit.</p>
+<p>Fixed a bug where an engineer could place small walls even though they hit their limit.</p>
+<p>Fixed persistent wall ghosts when holstering engineer tool.</p>
+<p>Fixed a bug where the start position of a wall would be the map origin, meaning players would be unable to place a wall until they right clicked.</p>
+<p>Engineer recycling no longer gives more resources when recycling without repair upgrade.</p>
+<p>Turrets upgrade instantly after turret upgrade research.</p>
+<p>Fixed scout class being named assault at the end of a round.</p>
+<p>Removed unused emp_sv_refinery_interval cvar.</p>
+<p>Made default class on start of game engineer instead of scout.</p>
+<p>Fixed guard order drawing outline with an extra side.</p>
+<p>Fixed gui images becoming blurry on low graphics settings.</p>
+<p>Intro video has been fixed.</p>
+<p>Hints should no longer show when inside a vehicle; destroyed vehicles show their own hint.</p>
+<p>Engineer buildables no longer block building placement for commander.</p>
+<p>Fixed news panel in menu.</p>
+<ul>
+<li>Non-code changes:</li>
+</ul>
+<p>Added emp_money_2016 with prebuilt walls on the entrances.</p>
+<p>Fixed third flag on emp_escort giving Brenodi reinforcements multiple times.</p>
+<p>Added ocean water material for use in mapping.</p>
+<p>Improved NF jeep VGUI images.</p>
+<p>Hud style updated.</p>
+<p>Updated some collisions for old Brenodi props.</p>
+<ul>
+<li>More detailed balancing changelog:</li>
+</ul>
+<p>NF SMG3</p>
+<p>Damage 40-&gt;38</p>
+<p>MinimalDamage 30-&gt;28</p>
+<p>StandingSpreadMax 0.3-&gt;0.25</p>
+<p>DuckingSpreadMax 0.2-&gt;0.17</p>
+<p>ProneSpreadMax 0.2-&gt;0.14</p>
+<p>StandingSpreadIncrement 0.009-&gt;0.0082</p>
+<p>DuckingSpreadIncrement 0.006-&gt;00055</p>
+<p>ProneSpreadIncrement 0.005-&gt;0.0046</p>
+<p>Sticky Grenade</p>
+<p>Damage 150-&gt;175</p>
+<p>Commander vehicle</p>
+<p>InfantryStickyResist 0-&gt;0.25</p>
+<p>Advanced Coolant Engine</p>
+<p>Heat Output At Max</p>
+<p>6-&gt;5 for AFV/LT</p>
+<p>7-&gt;6 for Medium</p>
+<p>6-&gt;5 for Heavy</p>
+<p>GL</p>
+<p>Gravity 1-&gt;0.92</p>
+<p>Cycle time 3-&gt;2.5</p>
+<p>Total Ammo Clips 2-&gt;4</p>
+<p>Reload Time 10-&gt;6</p>
+<p>UGL</p>
+<p>Gravity 0.9-&gt;0.88</p>
+<p>Total Ammo Clips 3-&gt;4</p>
+<p>Reload Time 12-&gt;8</p>
+<p>Bio MG</p>
+<p>Vehicle Bio Damage 3-&gt;4</p>
+<p>Plasma MG</p>
+<p>Damage 4-&gt;5</p>
+<p>Cycle time 0.4-&gt;0.35</p>
+<p>Heat to Target 1.6-&gt;1.8</p>
+<p>HEMG</p>
+<p>Projectile Spread 0.015-&gt;0.025</p>
+<p>DUMG &amp; DUHMG</p>
+<p>Projectile Spread 0.03-&gt;0.02</p>
+<p>Guided ML</p>
+<p>Heat 7-&gt;7.5</p>
+<p>Cycle Time 1.0-&gt;1.2</p>
+<p>Reload Time 6.0-&gt;5.5</p>
+<p>Salvo ML</p>
+<p>Weight 50-&gt;60</p>
+<p>Plasma CN</p>
+<p>Heat 20-&gt;15</p>
+<p>Heat to Target 10-&gt;7</p>
+<p>Explosion Radius 350-&gt;325</p>
+<p>Artillery tank</p>
+<p>Base cost 1000-&gt;850</p>
+<p>180mm arty cannon</p>
+<p>Gravity 0.7-&gt;0.55</p>
+<p>203mm arty cannon</p>
+<p>Speed 1800-&gt;1900</p>
+<p>Gravity 0.6-&gt;0.57</p>
+<p>Scout</p>
+<p>Ranged arty resist 0-&gt;0.1</p>
+<p>Other arties resist 0-&gt;0.15</p>
+<p>Rifleman</p>
+<p>Other arties resist 0.1-&gt;0.15</p>
+<p>Grenadier</p>
+<p>Other arties resist 0.3-&gt;0.4</p>
+<p>Engineer</p>
+<p>Ranged arty resist 0-&gt;0.1</p>
+<p>Other arties resist 0-&gt;0.15</p>
+<p>Capacitive Armor</p>
+<p>Damage To Heat Absorbed 0.06-&gt;0.045</p>
+<p>Regenerative Armor</p>
+<p>Health 70-&gt;72</p>
+<p>Deflective armor</p>
+<p>Health 72-&gt;75</p>
+<p>Angle Modifier 0.95-&gt;0.88</p>
+<p>Absorbant Armor</p>
+<p>Health 66-&gt;67</p>
+<p>Speed to Damage Modifier -0.00011-&gt;-0.000112</p>
+<p>Bio Modifier 0.3-&gt;0.45</p>
+<p>NF Heavy Rifle</p>
+<p>Clipsize 12-&gt;10</p>
+<p><a href="https://forums.empiresmod.com/index.php?threads/empires-2-9-0-released.20432/#post-531866">Discuss this on the forums.</a></p>
+</div>
+    </body>
+</html>

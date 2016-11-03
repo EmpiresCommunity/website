@@ -1,0 +1,197 @@
+a
+{
+	color: #00008B;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+body
+{
+	background-color: #99999e;
+	font-family: Verdana,Arial,  sans-serif;
+	font-size: .8em;
+	line-height: 1.3em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+}
+
+.content
+{
+	background-color: #E7E7E7;
+	margin-top: 10px;
+	padding: 5px 10px 5px 10px;	
+}
+h1
+{
+	margin-top: 5px;
+}
+h2
+{
+	padding: 50px 20px ;
+}
+
+#quickstart{
+	background-image:url('pictures/page6.jpg');
+	background-repeat: no-repeat;
+	}
+h3
+{
+	margin-top: 40px;
+	background-color: #99999e;
+}
+
+h3  a
+{
+	text-decoration:none;
+	color:#000;
+}
+h3 a:hover
+{
+text-decoration:none;
+}
+
+h4
+{
+	text-align:center;
+	font-size:200%;
+	margin-top: 10px;
+	padding: 4px 4px 4px 4px;
+	background-color: #99999e;
+}
+
+.sectioninfo a
+{
+font-weight:bold;
+}
+
+.sectioninfo:before
+{
+font-weight:bolder;
+content:'What you will learn in this section:';
+}
+
+.sectioninfo
+{
+width:80%;
+padding:5px;
+text-indent:0px;
+background-color: #99999e;
+}
+
+.sectionspan
+{
+float:right;
+}
+
+gb { padding: 5px 5px 5px 5px; }
+
+.menu
+{
+	background-color: #E7E7E7;
+	float: left;
+	font-weight: bold;
+	width: 370px;
+	height: 8em;
+}
+
+.no_bullet
+{
+	list-style: none;
+}
+li img
+{
+	vertical-align: middle;
+	margin:1px;
+}
+.no_bullet_c
+{
+	list-style: none;
+	text-align: center;
+}
+p
+{
+	margin-bottom: 20px;
+}
+
+ul
+{
+	margin-top: 15px;
+}
+
+.center
+{
+   margin-left: auto;
+   margin-right: auto;
+}
+table p
+{
+text-align: center;
+max-width:640px;
+text-indent: 0em;
+}
+ul li
+{
+margin-top:0.3em;
+margin-bottom:0.3em;
+}
+.large
+{
+font-size:200%;
+padding:5px 0px 5px 0px;
+}
+
+.comment
+{
+font-size:90%;
+font-weight:bold;
+border: 1px solid black;
+padding: 1px 1px 1px 1px;
+margin-left: 1px;
+margin-right: 1px;
+}
+
+.role
+{
+background-color: #99999e;
+font-size:250%;
+font-variant:small-caps;
+text-align:center;
+display:block;
+padding-bottom:5px;
+padding-top:5px;
+margin-bottom:2px;
+}
+
+.centeredtext
+{
+text-align:center;
+}
+
+.playerclass
+{
+background-color:#727A92;
+font-size:250%;
+font-variant:small-caps;
+text-align:center;
+display:block;
+border:1px solid black;
+padding: 5px 5px 5px 5px;
+}
+
+.backtotop
+{
+float:right;
+text-decoration:underline;
+}
+
+.unique
+{
+padding: 4px;
+background-color: tomato;
+border: 1px solid black;
+}

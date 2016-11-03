@@ -1,0 +1,87 @@
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/all.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/darkstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="../js/main.js" type="text/javascript"> </script>
+        
+        <title>We need your crashdumps!</title>
+    </head>
+    <body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Empires</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="http://www.empiresmod.com">About</a></li>
+                <li><a href="http://forums.empiresmod.com">Forums</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutorials <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Knowledge Sources</li>
+                    <li><a href="../docs/quickstart/quick_start.html">Quick-Start Guide</a></li>
+                    <li><a href="../docs/index.htm">Manual</a></li>
+                    <li role="separator" class="divider"></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Development <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../static-html/team.html">The Team</a></li>
+                    <li><a href="../static-md/join.html">Join Us</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+        
+        <div class="spacer">&nbsp;</div>
+    
+        <div class="container post">
+    <h1>We need your crashdumps!</h1>
+    <p class="author">By Tama on March  9, 2016</p>
+
+    <p>It has come to our attention that some players are experiencing a lot of crashes.</p>
+<p>While the dev team is still working on getting steam’s automatic crashdump system up-and-running, here are instructions on how to get crashdump files which you can send through the <a href="https://forums.empiresmod.com/index.php?forums/support.34/">support forum</a>. If you send us a crashdump file, we can fix the bug. Without it, it is nigh impossible. The steps below only need to be done once, after which crashdump files will appear whenever Empires crashes.</p>
+<p>If you’re reading this from in-game, first open a browser and view this on empiresmod.com so that you can follow the links.</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=49924">Install DebugDiag</a></li>
+<li>Start up “DebugDiag 2 Collection”</li>
+<li>Start up Empires</li>
+<li>Alt-tab back to DebugDiag</li>
+<li><p>Click “Add Rule…”, select Crash, then “A specific process”</p></li>
+<li><p>Select “hl2.exe” from the list of processes; it is only present if Empires is running when the window opens</p></li>
+<li><p>In Advanced Configuration, select “Action type for unconfigured first change exceptions: Mini Userdump” and in both fields below it (“Action limit …” and “Maximum number of userdumps …”, put 100. (Mini dump files are about 200 KB, so that’s about 20 MB)</p></li>
+<li><p>Select a name, e.g. “Empires crash dumps” and a location; you will visit this folder whenever you want to send a crash report.</p></li>
+<li>Select “Activate the rule now” and click finish</li>
+<li><p>To the popup you get about Symbol Search path debugging, choose “Yes”</p></li>
+</ol>
+<p>After these steps, whenever Empires crashes, you can open the mini dump directory you submitted, zip up and remove all the files ( so that you don’t submit the same crash logs twice ), and <a href="https://forums.empiresmod.com/index.php?forums/support.34/create-thread">start a thread in the support forum</a> with the zip file attached. The only thing we really need is the .dmp file that contains the crash report, but there may be multiple files generated, and the .log also contains some useful information, so it is best to just submit everything. If there is too much to send, sort by last modified, send us the most recent stuff and discard the rest.</p>
+<p>Note: there seem to be some false positives. When you start up Empires, 4 log files are generated for exception 0X406D1388, which is apparently thrown and handled by the engine. Don’t worry about them for now, just send everything for every crash report.</p>
+<p>These instructions were based on <a href="https://blogs.msdn.microsoft.com/chaun/2013/11/12/steps-to-catch-a-simple-crash-dump-of-a-crashing-process/">this Microsoft blog</a>. If you have any problems following the instructions above, <a href="https://forums.empiresmod.com/index.php?threads/how-to-submit-crashdumps.20062/">please ask in the forum thread.</a></p>
+</div>
+    </body>
+</html>
