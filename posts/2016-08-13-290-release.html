@@ -65,126 +65,126 @@
     <p class="author">By Tama on August 13, 2016</p>
 
     <p>Empires 2.9.0 “Battery” August 13, 2016</p>
+<h1 id="features">Features:</h1>
 <ul>
-<li>Features:</li>
+<li>Linux client and server, including <a href="https://gameservermanagers.com/lgsm/emserver/">easy installation using LGSM</a></li>
+<li>Building upgrades are now split into their own script definitions which allows values to be overridden when a building upgrades. For example turret damage can now be set when it is upgraded.</li>
+<li>Removed various code restrictions that meant only turrets could be upgraded. This means that new building upgrade definitions are now a possibility.</li>
+<li>Maximum carcass health is now defined in scripts, defaults to vehicle health.</li>
+<li>Concussion grenades re-added.</li>
+<li>Resource income now displays total income from all captured refineries and flags without using averaging; this should make it easier to notice when your income changes without random fluctuations. Resource deductions will display as and when they occur.</li>
+<li>Resources and wages will now display as rounded figures. This helps to make sure all the information stays visible without overlapping or going off-screen.</li>
+<li>Removed hardcoded layout for hud ammo indicator.</li>
+<li>Standing near an unbuilt refinery point shows a hint that you have to move away.</li>
 </ul>
-<p>Linux client and server, including <a href="https://gameservermanagers.com/lgsm/emserver/">easy installation using LGSM</a></p>
-<p>Building upgrades are now split into their own script definitions which allows values to be overridden when a building upgrades. For example turret damage can now be set when it is upgraded.</p>
-<p>Removed various code restrictions that meant only turrets could be upgraded. This means that new building upgrade definitions are now a possibility.</p>
-<p>Maximum carcass health is now defined in scripts, defaults to vehicle health.</p>
-<p>Concussion grenades re-added.</p>
-<p>Resource income now displays total income from all captured refineries and flags without using averaging; this should make it easier to notice when your income changes without random fluctuations. Resource deductions will display as and when they occur.</p>
-<p>Resources and wages will now display as rounded figures. This helps to make sure all the information stays visible without overlapping or going off-screen.</p>
-<p>Removed hardcoded layout for hud ammo indicator.</p>
-<p>Standing near an unbuilt refinery point shows a hint that you have to move away.</p>
+<h1 id="bugfixes">Bugfixes:</h1>
 <ul>
-<li>Bugfixes:</li>
+<li>Made walls placable in Hammer.</li>
+<li>Fixed the bug causing players to spawn in Barracks facing East; players will now spawn facing the nearest exit.</li>
+<li>Fixed a bug where an engineer could place small walls even though they hit their limit.</li>
+<li>Fixed persistent wall ghosts when holstering engineer tool.</li>
+<li>Fixed a bug where the start position of a wall would be the map origin, meaning players would be unable to place a wall until they right clicked.</li>
+<li>Engineer recycling no longer gives more resources when recycling without repair upgrade.</li>
+<li>Turrets upgrade instantly after turret upgrade research.</li>
+<li>Fixed scout class being named assault at the end of a round.</li>
+<li>Removed unused emp_sv_refinery_interval cvar.</li>
+<li>Made default class on start of game engineer instead of scout.</li>
+<li>Fixed guard order drawing outline with an extra side.</li>
+<li>Fixed gui images becoming blurry on low graphics settings.</li>
+<li>Intro video has been fixed.</li>
+<li>Hints should no longer show when inside a vehicle; destroyed vehicles show their own hint.</li>
+<li>Engineer buildables no longer block building placement for commander.</li>
+<li>Fixed news panel in menu.</li>
 </ul>
-<p>Made walls placable in Hammer.</p>
-<p>Fixed the bug causing players to spawn in Barracks facing East; players will now spawn facing the nearest exit.</p>
-<p>Fixed a bug where an engineer could place small walls even though they hit their limit.</p>
-<p>Fixed persistent wall ghosts when holstering engineer tool.</p>
-<p>Fixed a bug where the start position of a wall would be the map origin, meaning players would be unable to place a wall until they right clicked.</p>
-<p>Engineer recycling no longer gives more resources when recycling without repair upgrade.</p>
-<p>Turrets upgrade instantly after turret upgrade research.</p>
-<p>Fixed scout class being named assault at the end of a round.</p>
-<p>Removed unused emp_sv_refinery_interval cvar.</p>
-<p>Made default class on start of game engineer instead of scout.</p>
-<p>Fixed guard order drawing outline with an extra side.</p>
-<p>Fixed gui images becoming blurry on low graphics settings.</p>
-<p>Intro video has been fixed.</p>
-<p>Hints should no longer show when inside a vehicle; destroyed vehicles show their own hint.</p>
-<p>Engineer buildables no longer block building placement for commander.</p>
-<p>Fixed news panel in menu.</p>
+<h1 id="non-code-changes">Non-code changes:</h1>
 <ul>
-<li>Non-code changes:</li>
+<li>Added emp_money_2016 with prebuilt walls on the entrances.</li>
+<li>Fixed third flag on emp_escort giving Brenodi reinforcements multiple times.</li>
+<li>Added ocean water material for use in mapping.</li>
+<li>Improved NF jeep VGUI images.</li>
+<li>Hud style updated.</li>
+<li>Updated some collisions for old Brenodi props.</li>
 </ul>
-<p>Added emp_money_2016 with prebuilt walls on the entrances.</p>
-<p>Fixed third flag on emp_escort giving Brenodi reinforcements multiple times.</p>
-<p>Added ocean water material for use in mapping.</p>
-<p>Improved NF jeep VGUI images.</p>
-<p>Hud style updated.</p>
-<p>Updated some collisions for old Brenodi props.</p>
+<h1 id="more-detailed-balancing-changelog">More detailed balancing changelog:</h1>
 <ul>
-<li>More detailed balancing changelog:</li>
+<li>NF SMG3</li>
+<li>Damage 40-&gt;38</li>
+<li>MinimalDamage 30-&gt;28</li>
+<li>StandingSpreadMax 0.3-&gt;0.25</li>
+<li>DuckingSpreadMax 0.2-&gt;0.17</li>
+<li>ProneSpreadMax 0.2-&gt;0.14</li>
+<li>StandingSpreadIncrement 0.009-&gt;0.0082</li>
+<li>DuckingSpreadIncrement 0.006-&gt;00055</li>
+<li>ProneSpreadIncrement 0.005-&gt;0.0046</li>
+<li>Sticky Grenade</li>
+<li>Damage 150-&gt;175</li>
+<li>Commander vehicle</li>
+<li>InfantryStickyResist 0-&gt;0.25</li>
+<li>Advanced Coolant Engine</li>
+<li>Heat Output At Max</li>
+<li>6-&gt;5 for AFV/LT</li>
+<li>7-&gt;6 for Medium</li>
+<li>6-&gt;5 for Heavy</li>
+<li>GL</li>
+<li>Gravity 1-&gt;0.92</li>
+<li>Cycle time 3-&gt;2.5</li>
+<li>Total Ammo Clips 2-&gt;4</li>
+<li>Reload Time 10-&gt;6</li>
+<li>UGL</li>
+<li>Gravity 0.9-&gt;0.88</li>
+<li>Total Ammo Clips 3-&gt;4</li>
+<li>Reload Time 12-&gt;8</li>
+<li>Bio MG</li>
+<li>Vehicle Bio Damage 3-&gt;4</li>
+<li>Plasma MG</li>
+<li>Damage 4-&gt;5</li>
+<li>Cycle time 0.4-&gt;0.35</li>
+<li>Heat to Target 1.6-&gt;1.8</li>
+<li>HEMG</li>
+<li>Projectile Spread 0.015-&gt;0.025</li>
+<li>DUMG &amp; DUHMG</li>
+<li>Projectile Spread 0.03-&gt;0.02</li>
+<li>Guided ML</li>
+<li>Heat 7-&gt;7.5</li>
+<li>Cycle Time 1.0-&gt;1.2</li>
+<li>Reload Time 6.0-&gt;5.5</li>
+<li>Salvo ML</li>
+<li>Weight 50-&gt;60</li>
+<li>Plasma CN</li>
+<li>Heat 20-&gt;15</li>
+<li>Heat to Target 10-&gt;7</li>
+<li>Explosion Radius 350-&gt;325</li>
+<li>Artillery tank</li>
+<li>Base cost 1000-&gt;850</li>
+<li>180mm arty cannon</li>
+<li>Gravity 0.7-&gt;0.55</li>
+<li>203mm arty cannon</li>
+<li>Speed 1800-&gt;1900</li>
+<li>Gravity 0.6-&gt;0.57</li>
+<li>Scout</li>
+<li>Ranged arty resist 0-&gt;0.1</li>
+<li>Other arties resist 0-&gt;0.15</li>
+<li>Rifleman</li>
+<li>Other arties resist 0.1-&gt;0.15</li>
+<li>Grenadier</li>
+<li>Other arties resist 0.3-&gt;0.4</li>
+<li>Engineer</li>
+<li>Ranged arty resist 0-&gt;0.1</li>
+<li>Other arties resist 0-&gt;0.15</li>
+<li>Capacitive Armor</li>
+<li>Damage To Heat Absorbed 0.06-&gt;0.045</li>
+<li>Regenerative Armor</li>
+<li>Health 70-&gt;72</li>
+<li>Deflective armor</li>
+<li>Health 72-&gt;75</li>
+<li>Angle Modifier 0.95-&gt;0.88</li>
+<li>Absorbant Armor</li>
+<li>Health 66-&gt;67</li>
+<li>Speed to Damage Modifier -0.00011-&gt;-0.000112</li>
+<li>Bio Modifier 0.3-&gt;0.45</li>
+<li>NF Heavy Rifle</li>
+<li>Clipsize 12-&gt;10</li>
 </ul>
-<p>NF SMG3</p>
-<p>Damage 40-&gt;38</p>
-<p>MinimalDamage 30-&gt;28</p>
-<p>StandingSpreadMax 0.3-&gt;0.25</p>
-<p>DuckingSpreadMax 0.2-&gt;0.17</p>
-<p>ProneSpreadMax 0.2-&gt;0.14</p>
-<p>StandingSpreadIncrement 0.009-&gt;0.0082</p>
-<p>DuckingSpreadIncrement 0.006-&gt;00055</p>
-<p>ProneSpreadIncrement 0.005-&gt;0.0046</p>
-<p>Sticky Grenade</p>
-<p>Damage 150-&gt;175</p>
-<p>Commander vehicle</p>
-<p>InfantryStickyResist 0-&gt;0.25</p>
-<p>Advanced Coolant Engine</p>
-<p>Heat Output At Max</p>
-<p>6-&gt;5 for AFV/LT</p>
-<p>7-&gt;6 for Medium</p>
-<p>6-&gt;5 for Heavy</p>
-<p>GL</p>
-<p>Gravity 1-&gt;0.92</p>
-<p>Cycle time 3-&gt;2.5</p>
-<p>Total Ammo Clips 2-&gt;4</p>
-<p>Reload Time 10-&gt;6</p>
-<p>UGL</p>
-<p>Gravity 0.9-&gt;0.88</p>
-<p>Total Ammo Clips 3-&gt;4</p>
-<p>Reload Time 12-&gt;8</p>
-<p>Bio MG</p>
-<p>Vehicle Bio Damage 3-&gt;4</p>
-<p>Plasma MG</p>
-<p>Damage 4-&gt;5</p>
-<p>Cycle time 0.4-&gt;0.35</p>
-<p>Heat to Target 1.6-&gt;1.8</p>
-<p>HEMG</p>
-<p>Projectile Spread 0.015-&gt;0.025</p>
-<p>DUMG &amp; DUHMG</p>
-<p>Projectile Spread 0.03-&gt;0.02</p>
-<p>Guided ML</p>
-<p>Heat 7-&gt;7.5</p>
-<p>Cycle Time 1.0-&gt;1.2</p>
-<p>Reload Time 6.0-&gt;5.5</p>
-<p>Salvo ML</p>
-<p>Weight 50-&gt;60</p>
-<p>Plasma CN</p>
-<p>Heat 20-&gt;15</p>
-<p>Heat to Target 10-&gt;7</p>
-<p>Explosion Radius 350-&gt;325</p>
-<p>Artillery tank</p>
-<p>Base cost 1000-&gt;850</p>
-<p>180mm arty cannon</p>
-<p>Gravity 0.7-&gt;0.55</p>
-<p>203mm arty cannon</p>
-<p>Speed 1800-&gt;1900</p>
-<p>Gravity 0.6-&gt;0.57</p>
-<p>Scout</p>
-<p>Ranged arty resist 0-&gt;0.1</p>
-<p>Other arties resist 0-&gt;0.15</p>
-<p>Rifleman</p>
-<p>Other arties resist 0.1-&gt;0.15</p>
-<p>Grenadier</p>
-<p>Other arties resist 0.3-&gt;0.4</p>
-<p>Engineer</p>
-<p>Ranged arty resist 0-&gt;0.1</p>
-<p>Other arties resist 0-&gt;0.15</p>
-<p>Capacitive Armor</p>
-<p>Damage To Heat Absorbed 0.06-&gt;0.045</p>
-<p>Regenerative Armor</p>
-<p>Health 70-&gt;72</p>
-<p>Deflective armor</p>
-<p>Health 72-&gt;75</p>
-<p>Angle Modifier 0.95-&gt;0.88</p>
-<p>Absorbant Armor</p>
-<p>Health 66-&gt;67</p>
-<p>Speed to Damage Modifier -0.00011-&gt;-0.000112</p>
-<p>Bio Modifier 0.3-&gt;0.45</p>
-<p>NF Heavy Rifle</p>
-<p>Clipsize 12-&gt;10</p>
 <p><a href="https://forums.empiresmod.com/index.php?threads/empires-2-9-0-released.20432/#post-531866">Discuss this on the forums.</a></p>
 </div>
     </body>
