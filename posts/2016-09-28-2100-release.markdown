@@ -6,65 +6,35 @@ author: Tama
 Empires 2.10.0 "Crossfire"
 September 25, 2016
 
-* Bugfixes:
+# Bugfixes:
+* A fix to hopefully address the "Enemy Too Near" bug when attempting to place buildings.
 
-A fix to hopefully address the "Enemy Too Near" bug when attempting to place buildings.
+# Non-code changes:
+* Darker UI in general
+* New squad power icons
+* New nuke particle effect
+* Removed emp_noreturn
+* Removed duplicate sourcetest folder
+* New prop models
 
-
-
-* Non-code changes:
-
-Darker UI in general
-
-New squad power icons
-
-New nuke particle effect
-
-Removed emp_noreturn
-
-Removed duplicate sourcetest folder
-
-New prop models
-
-
-
-* Script changes:
-
-3-slot Plasma CN cost 80->130 Damage 80->82 Speed 3000->3100 Gravity 0.4125->0.4 Exp Radius 325->300
-
-Cost of most vehicle weapons redone. (mostly increased)
-
-Adding 2-slot plasma CN, creating separate research for 2-slot and 3-slot plasma CN.
-
-HE CN explosion radius 450->425
-
-Vehicle speed drop. (very slightly)
-
-Capacitive Damage to heat absorbed 0.045->0.04
-
-DUMG Projectile Spread 0.02->0.018
-
-180mm&203mm arty buff.
-
-Max ammo of NFHR and HMG will actually be multiples of clipsize.
-
-SMG3 rework part 2 (buff)
-
-NF med cost 150->170
-
-NF med max weight 1092->1077
-
-Guided ML speed 1200->1400
-
-Overall slight nerf for BEAR.
-
-SMG2 headshot modifier 1.2->1.4 (same as SMG1)
-
-Adding Bio Cannon.
-
-HEMG damage 10.5->10
-
-Bio ML tweaks.
-
+# Script changes:
+* 3-slot Plasma CN cost 80->130 Damage 80->82 Speed 3000->3100 Gravity 0.4125->0.4 Exp Radius 325->300
+* Cost of most vehicle weapons redone. (mostly increased)
+* Adding 2-slot plasma CN, creating separate research for 2-slot and 3-slot plasma CN.
+* HE CN explosion radius 450->425
+* Vehicle speed drop. (very slightly)
+* Capacitive Damage to heat absorbed 0.045->0.04
+* DUMG Projectile Spread 0.02->0.018
+* 180mm&203mm arty buff.
+* Max ammo of NFHR and HMG will actually be multiples of clipsize.
+* SMG3 rework part 2 (buff)
+* NF med cost 150->170
+* NF med max weight 1092->1077
+* Guided ML speed 1200->1400
+* Overall slight nerf for BEAR.
+* SMG2 headshot modifier 1.2->1.4 (same as SMG1)
+* Adding Bio Cannon.
+* HEMG damage 10.5->10
+* Bio ML tweaks.
 
 [Discuss this on the forums.](https://forums.empiresmod.com/index.php?threads/empires-2-10-0-released.20570/#post-534476)
