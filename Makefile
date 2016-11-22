@@ -2,9 +2,7 @@ site: site.hs
 	stack build
 
 build:
-	rm _site/* -rf
-	rm -r _cache/
-	stack exec site build
+	stack exec site rebuild
 
 deploy:
 	cd _site && git checkout -- . && git clean -df
