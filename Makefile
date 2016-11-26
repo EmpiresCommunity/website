@@ -3,7 +3,7 @@ site: site.hs
 
 build:
 	rm _site/* -rf
-	rm -r _cache/
+	rm -rf _cache/
 	stack exec site build
 
 deploy:
