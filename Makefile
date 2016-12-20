@@ -1,7 +1,7 @@
 site: site.hs
 	stack build
 
-build:
+build: site
 	rm _site/* -rf
 	rm -rf _cache/
 	stack exec site build
