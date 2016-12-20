@@ -6,3 +6,8 @@ body {
 .caret {
 	margin-left: 0.5em;
 }
+
+.glyphicon-envelope {
+	margin-right: 0.5em;
+	color: #1f7bc6;
+}
