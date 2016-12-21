@@ -1,0 +1,31 @@
+---
+title: Crowd-sourcing our server costs
+author: Tama
+---
+
+You may not have been aware, but it takes a few servers to keep Empiresmod development going; there's the git server and the build server we need for development, and also the [forum](https://forums.empiresmod.com) for keeping players in touch with each other and getting feedback for the developers. So far, these servers have been paid out-of-pocket by whichever dev happened to be closest to the bill and willing to pay it. That isn't a very good way of organising things - it will lead to losing some important developers already contributing a lot of their time to improving the game.
+
+---
+
+<a href="https://www.patreon.com/Empires" target="_blank"><img src="/img/patreon.png" width="100%"></img></a>
+
+So, we've made a patreon page to support our server costs. [Please check it out!](https://www.patreon.com/Empires)
+
+---
+
+# Just costs
+
+Note that we don't ever intend to pay any developers. That's a slippery slope; it's super complicated anyway, with different market rates for different roles, differing amounts of time spent on the actual project, and we also have lots and lots of previous developer's hours that have been and gone - who is going to pay them, and how much?
+
+# Why patreon?
+
+Patreon is great for allowing us to easily show exactly who is donating what towards our server costs. 
+
+By the looks of patreon's system, they also promote the game, so we will hopefully get a bit of new traffic that are browsing crowd-sourced games through patreon. Additionally, they keep track of who is paying what and how much you are getting per month, displaying it publicly on the page, which is neat since we want to showcase how much our players care about this game.
+
+The thing about patreon is that it encourages people to sign up to pay regularly, rather than supporting one-off donations. Since the server costs are fixed rates per month, this is a big benefit. It will be much easier for to manage if both developers and all would-be supporters can easily see whether we are covering the costs or not.
+
+I think it's really important to be completely open about our finances, so that we can stop relying on individual developers to pay the whole sum out-of-pocket. At the moment, I've donated an initial balance of 500 euro so that the bills can be switched over immediately. A few devs have already volunteered to pay some per-monthly costs as well, and have [signed up on patreon](https://www.patreon.com/Empires) already!
+
+# Thank you
+
