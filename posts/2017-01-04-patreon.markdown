@@ -27,5 +27,6 @@ The thing about patreon is that it encourages people to sign up to pay regularly
 
 I think it's really important to be completely open about our finances, so that we can stop relying on individual developers to pay the whole sum out-of-pocket. At the moment, I've donated an initial balance of 500 euro so that the bills can be switched over immediately. A few devs have already volunteered to pay some per-monthly costs as well, and have [signed up on patreon](https://www.patreon.com/Empires) already!
 
-# Thank you
+[Please, share your thoughts and read what others have to say in this forum thread.](https://forums.empiresmod.com/index.php?threads/sharing-server-costs.20781/)
 
+# Thank you 
