@@ -1,0 +1,47 @@
+---
+title: Empires 2.13.4 released
+author: Thexa4
+---
+
+Empires 2.13.4 "Equilibrium"
+April 4, 2017
+
+# Features:
+* Flags will now be (slowly) captured if the full team is present on that location, even if the amount of players is lower than the configured minimum.
+* Added turret turning speed parameter to vehicle scripts.
+* Rotation in second seat no longer coupled to turret rotation.
+* View rotation is persisted when entering / exiting vehicles.
+* Artillery now has slight horizontal movement ability.
+* Slightly prettier tank deaths.
+* Added HUD element to warn players of CV attacks.
+* Research is now paused when the last radar is destroyed.
+* Added tutorial bot spawner entity (emp_tutorial_bot_spawner).
+* Added commander target entity (emp_commander_auto_target).
+* Enabled detail shapes
+* Detail models now hide when under a building.
+* Detail draw distance is now controlled by the server instead of the client.
+
+# Bugfixes:
+* Fixed chat swallowing character after a %.
+* Flags no longer continue capping after a game ends.
+* Vehicles are now lag compensated, allowing you to hit people with hitscan weapons while driving.
+* Removed tank cannon kick to fix aiming with double cannons.
+
+# Non-code changes:
+* Included new cliff textures.
+* Renamed stock maps to indicate play type to help players vote for maps: (affected: district402, urbanchaos, eastborough, glycencity, escort)
+** Conquest maps (like district, vehicletraining) begin with ''con_''
+** Commander maps stay ''emp_''
+** Assault maps (like escort) begin with ''as_''
+** Fun / intermission maps (like minigames) begin with ''fun_''
+* Better statistics tracking
+
+# Script changes:
+* Amount of units required for getting a point by recycling 150-> 100.
+* Lowering wages.
+* Deflective & Capacitve cost 20 -> 18.
+* Rename Seismic Grenade into Seismic Resonator.
+* More explosive force for arty cannons.
+* Slightly decreased machine gun damage to compensate for lag compensation.
+
+[Discuss this on the forums.](https://forums.empiresmod.com/)
