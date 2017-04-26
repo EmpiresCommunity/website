@@ -4,7 +4,7 @@ author: Thexa4
 ---
 
 Empires 2.13.4 "Equilibrium"
-April 4, 2017
+April 4, 2017 
 
 # Features:
 * Flags will now be (slowly) captured if the full team is present on that location, even if the amount of players is lower than the configured minimum.
