@@ -12,6 +12,7 @@ machine:
 dependencies:
   override:
     - cabal update
+    - cabal install cabal cabal-install
     - cabal install --dependencies-only --avoid-reinstalls
     #- sudo apt-get update
     #- sudo apt-get dist-upgrade -o DPkg::Options::="--force-overwrite"
