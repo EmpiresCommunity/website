@@ -6,16 +6,16 @@ machine:
     - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.6 20
     - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 10
     - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
-  ghc:
-      version: 7.10.2
+  cabal:
+      version: 1.24.0.2
 
 dependencies:
   override:
     - cabal update
     - cabal install --dependencies-only --avoid-reinstalls
-    - sudo apt-get update
-    - sudo apt-get dist-upgrade -o DPkg::Options::="--force-overwrite"
-    - curl -sSL https://get.haskellstack.org/ | sh
+    #- sudo apt-get update
+    #- sudo apt-get dist-upgrade -o DPkg::Options::="--force-overwrite"
+    #- curl -sSL https://get.haskellstack.org/ | sh
 
 # Compile pages during the test stage
 test:
