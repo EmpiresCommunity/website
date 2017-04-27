@@ -14,7 +14,7 @@ dependencies:
     - cabal update
     - cabal install --dependencies-only --avoid-reinstalls
     - sudo apt-get update
-    - sudo apt-get install -o DPkg::Options::="--force-overwrite" texlive-latex-extra-doc texlive-fonts-extra-doc
+    - sudo apt-get dist-upgrade -o DPkg::Options::="--force-overwrite"
     - curl -sSL https://get.haskellstack.org/ | sh
 
 # Compile pages during the test stage
