@@ -13,6 +13,7 @@ dependencies:
   override:
     - cabal update
     - cabal install --dependencies-only --avoid-reinstalls
+    - apt-get update
     - curl -sSL https://get.haskellstack.org/ | sh
 
 # Compile pages during the test stage
