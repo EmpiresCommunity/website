@@ -1,0 +1,14 @@
+---
+title: A new goal: polish
+author: Tama
+---
+
+For a long time, everything we've added to the game has been restricted in terms of graphical appeal, due to a shortage of professional artists; instead of carrying on like that, we want to purchase licenses as required for suitable artwork, from such places as GameTextures.com.
+
+This means our programmers will have more freedom in expanding features and reworking UI, and means that everything will generally look more polished in future. We hope that this will be especially fruitful in retaining new players. [Help make Empires look awesome, pledge a donation please!](https://www.patreon.com/Empires)
+
+---
+
+<a href="https://www.patreon.com/Empires" target="_blank"><img src="/img/patreon.png" width="100%"></img></a>
+
+# Thank you 
