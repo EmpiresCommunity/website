@@ -1,0 +1,5 @@
+#!/bin/bash
+stack build
+rm _site/* -rf
+rm -rf _cache/
+stack exec site build
