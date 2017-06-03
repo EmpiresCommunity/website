@@ -1,5 +1,6 @@
-# Use a hakyll runtime as a base image
+# Use a base image
 FROM debian:8
+MAINTAINER Tama McGlinn
 
 # Install particular dependencies
 RUN apt-get update && apt-get install -y \
