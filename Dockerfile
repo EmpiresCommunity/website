@@ -4,8 +4,8 @@ FROM ubuntu:12.04
 # Set the working directory to /site
 WORKDIR /site
 
-# Copy the current directory contents into the container at /app
+# Copy the current directory contents into the container at /site
 ADD . /site
 
-# Run app.py when the container launches
-# CMD ["python", "app.py"]
+# Build site locally
+CMD ["make"]
