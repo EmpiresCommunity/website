@@ -1,5 +1,13 @@
-# Use an official Python runtime as a base image
-FROM ubuntu:12.04
+# Use a hakyll runtime as a base image
+FROM debian:8
+
+# Install particular dependencies
+RUN apt-get update && apt-get install -y \
+  git \
+  curl
+RUN curl -sSL https://get.haskellstack.org/ | sh
+RUN stack setup
+RUN stack install hakyll
 
 # Set the working directory to /site
 WORKDIR /site
@@ -7,5 +15,8 @@ WORKDIR /site
 # Copy the current directory contents into the container at /site
 ADD . /site
 
-# Build site locally
-CMD ["make"]
+# Build the site
+RUN ./build
+
+# Deploy the site?
+# RUN ./deploy
