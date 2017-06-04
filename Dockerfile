@@ -1,23 +1,14 @@
-# Use a base image
-FROM debian:8
-MAINTAINER Tama McGlinn
+from ivotron/hakyll
 
-# Install particular dependencies
 RUN apt-get update && apt-get install -y \
-  git \
-  curl
+    curl
+
 RUN curl -sSL https://get.haskellstack.org/ | sh
+ENV PATH "$PATH:/root/.local/bin"
 RUN stack setup
 RUN stack install hakyll
 
-# Set the working directory to /site
-WORKDIR /site
+copy . /root/src/
 
-# Copy the current directory contents into the container at /site
-ADD . /site
-
-# Build the site
-RUN ./build
-
-# Deploy the site?
-# RUN ./deploy
+workdir /root/src
+entrypoint /root/src/build
