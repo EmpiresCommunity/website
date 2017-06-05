@@ -1,0 +1,4 @@
+#!/bin/bash
+docker build -t emp_website_image .
+docker run --name website_builder_container -dt emp_website_image
+docker cp website_builder_container:/root/src/_site .
