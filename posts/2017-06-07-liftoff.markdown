@@ -1,0 +1,17 @@
+---
+title: We have liftoff!
+author: Tama
+---
+Spring time is here, and you know what that means! Pack away the study books and come back to Empires!
+
+It was high-time to give the website a little face-lift; you will notice a new navigation bar at the top, with a bunch of extra relevant links for Empires players. We've already seen a few new servers show up, but in case you're still on the fence, read up on [the wiki page](https://wiki.empiresmod.com/Dedicated_Server_Setup) for instructions on setting up yours.
+
+The steamcharts indicate now is the best time to start playing again, as there is a server running with players pretty much 24/7. We've been watching these statistics for a while, and the trend is clearly upward. So, just to remind you of our progress as a game community, we've added the steamcharts to the navigation bar, under "Meet players" -> "Current playercount".
+
+So please, go forth and tell your friends and neighbours to stop wasting time with sub-par games, and join in on the Empiresmod summer revival!
+
+P.S. If you don't like the website changes, please use "Help" -> "Report a website issue" and let me know what needs fixing. Thank you!
+
+<a href="http://steamcharts.com/app/17740" target="_blank"><img src="/img/steamcharts.png" width="100%"></img></a>
+
+
