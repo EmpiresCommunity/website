@@ -10,7 +10,7 @@ main = hakyll $ do
     match "img/*" $ do
         route   idRoute
         compile copyFileCompiler
-        
+
     match "js/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -18,7 +18,7 @@ main = hakyll $ do
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
-        
+
     match "CNAME" $ do
         route   idRoute
         compile copyFileCompiler
@@ -26,7 +26,7 @@ main = hakyll $ do
     match "docs/***" $ do
         route   idRoute
         compile copyFileCompiler
-        
+
     match "static-html/*" $ do
         route   idRoute
         compile $ do
@@ -34,7 +34,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/static.html"  postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
-    
+
     match "static-md/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
