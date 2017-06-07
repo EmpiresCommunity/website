@@ -64,13 +64,13 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    create ["atom.xml"] $ do
+    create ["feed.rss"] $ do
         route idRoute
         compile $ do
             let feedCtx = postCtx `mappend` bodyField "description"
             posts <- fmap (take 10) . recentFirst =<<
                 loadAllSnapshots "posts/*" "content"
-            renderAtom myFeedConfiguration feedCtx posts
+            renderRss myFeedConfiguration feedCtx posts
 
     match "index.html" $ do
         route idRoute
