@@ -1,10 +1,10 @@
-site: site.hs
-	stack build
-
 build: site
 	rm _site/* -rf
 	rm -rf _cache/
 	stack exec site build
+
+site: site.hs
+	stack build
 
 deploy:
 	cd _site && git checkout -- . && git clean -df
