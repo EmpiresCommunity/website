@@ -7,6 +7,10 @@
 	color: #1f7bc6;
 }
 
+.glyphicon-home {
+	margin-right: 0.5em;
+}
+
 .patreon_icon {
 	margin: -0.2em 0.5em 0 0;
 	height: 1em;
@@ -18,4 +22,3 @@
 	height: 1.2em;
 	width: 1.2em;
 }
-
