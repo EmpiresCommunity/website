@@ -12,7 +12,7 @@ Scroll up, copy from the green "Clone or download" button on the right, plug tha
 git clone git@github.com:EmpiresCommunity/website.git
 ```
 
-# Install stack, hakyll and site
+# Install stack & hakyll
 
 Install stack as described [here](https://docs.haskellstack.org/en/stable/README/), then install hakyll from a terminal, opened on the website directory, with:
 
