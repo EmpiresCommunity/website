@@ -12,4 +12,4 @@ Steps for editing empiresmod.com:
 3) [Clone our website](https://github.com/EmpiresCommunity/website)
 4) [Read README.md](https://github.com/EmpiresCommunity/website/blob/code/README.md)
 
-If any of those steps fails, use the Help menu in the navbar.
+If any of those steps fails, use the Help menu at the top of this page.
