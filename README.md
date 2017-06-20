@@ -1,19 +1,20 @@
 # Empiresmod main page
 
-The main page for [Empiresmod, a free indie RTS/FPS game](http://www.empiresmod.com/) is free open source software built with Hakyll.
+The main page for [Empiresmod, a free indie RTS/FPS game](http://www.empiresmod.com/) - free open source software built with Hakyll.
 
-# Dependencies
+Note: The steps for building the website locally currently only work on Linux - you can still write and submit pull requests from Windows, it just means you cannot review changes, seeing them as they would appear online.
 
-## Clone this repository
+# Clone this repository
+
+Scroll up, copy from the green "Clone or download" button on the right, plug that into your git GUI (e.g. [GitExtensions](https://gitextensions.github.io/)) or copy the following into a terminal window:
 
 ```
-cd ~
 git clone git@github.com:EmpiresCommunity/website.git
 ```
 
-## Install stack, hakyll and site
+# Install stack, hakyll and site
 
-Install stack as described [here](https://docs.haskellstack.org/en/stable/README/) (oneliner for most Un*x'es)
+Install stack as described [here](https://docs.haskellstack.org/en/stable/README/), then install hakyll from a terminal, opened on the website directory, with:
 
 ```
 stack setup
@@ -23,19 +24,14 @@ stack install hakyll
 ## Build the website
 
 ```
-make site
-make build
+make
 ```
 
-The first command builds an executable from site.hs (which is in Haskell and uses the Hakyll module), which can build this website from the (markdown, html, etc.) sources. The reason we do it this way instead of plain html is that you can reduce the code and content duplication without having to use PHP (which would be less scalable). The end result is still plain html, but each piece of content can be put in exactly one place and duplicated where necessary.
-
-## Test
-
-Open ~/website/_site/index.html in a browser. 
+That will place a working copy of the website into /_site/, below wherever you cloned this repository. For example, if you cloned into `C:\Empiresmod\website`, then you can put `/C:/Empiresmod/website/_site/index.html` into your browser's url bar; but if you're running linux, what you put into the url bar should look like: `file:///home/you/empires/website/_site/index.html`
 
 ## Deploy
 
-Run `make deploy` when you are happy with the changes to deploy to github pages. You can't do this unless you have the required permissions, to push to the gh-pages branch.
+Run `make deploy` when you are happy with the changes; that deploys to empiresmod.com (gh-pages branch). If you don't have the required permissions to deploy, first [fork](https://help.github.com/articles/fork-a-repo/), then [submit a pull request](https://help.github.com/articles/about-pull-requests/).
 
 ## Stuck?
 
