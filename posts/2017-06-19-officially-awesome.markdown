@@ -6,6 +6,10 @@ I'm so excited! [This pull request](https://github.com/EmpiresCommunity/website/
 
 So please, honour Empiresmod, write game-reviews together, comparing features of other games with those in Empiresmod, fix typos on the website, make everything look *just right* - edit my words mercilessly, and make Empiresmod what you know it once was; full of life, full of players, full of passion! Long live zombie Empiresmod!
 
+Proof that this is Zombie Empiresmod (but so far no answer to "are we dying or coming back, right now?")
+
+![](http://i.imgur.com/SgkLt90.png "You try dyin' three times and still coming back looking half as good, then you can complain")
+
 Steps for editing empiresmod.com:
 1) [Learn markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2) [Learn git](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
