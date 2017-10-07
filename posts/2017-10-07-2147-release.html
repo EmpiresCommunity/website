@@ -1,0 +1,263 @@
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/all.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/darkstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <title>Empires 2.14 released</title>
+    </head>
+    <body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://store.steampowered.com/app/17740/">Empires<span><img class="insignia" align="middle" src="../img/IMP_insignia.png" /></span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+              	<li><a class="return-home" href="../index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  	Meet players
+                  	<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                		<li><a href="http://forums.empiresmod.com" target="_blank">Chat on the forums</a></li>
+                		<li><a href="http://steamcharts.com/app/17740" target="_blank">Current playercount</a></li>
+                		<li><a href="http://steamcommunity.com/app/17740" target="_blank">Steam Community Hub</a></li>
+                	</ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  	Learn
+                  	<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Text Tutorials</li>
+                    <li><a href="../docs/quickstart/quick_start.html" target="_blank">Quick-Start Guide</a></li>
+                    <li><a href="../docs/index.htm" target="_blank">Manual</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Advanced topics</li>
+                    <li><a href="https://wiki.empiresmod.com/Main_Page" target="_blank">Wiki</a></li>
+                    <li><a href="https://wiki.empiresmod.com/Dedicated_Server_Setup" target="_blank">Server setup</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+               	  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+               	  	Developers
+               	  	<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../static-html/team.html">Meet the team</a></li>
+                  	<li><a href="../static-md/join.html">Join us</a></li>
+                  	<li><a href="../archive.html">Developer blog</a></li>
+                	</ul>
+              	</li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Stuck?</li>
+                    <li><a href="https://forums.empiresmod.com/index.php?forums/support.34/" target="_blank">Get community support</a></li>
+                    <li><a href="https://forums.empiresmod.com/index.php?forums/bug-reports.6/" target="_blank">Report a bug</a></li>
+                    <li><a href="https://github.com/EmpiresCommunity/website/issues/new" target="_blank">Report a website issue</a></li>
+                  </ul>
+                </li>
+              	<li><a href="mailto:tama@empiresmod.com?body=Dear Empiresmod Developers,"><span class="glyphicon glyphicon-envelope"></span>Contact us</a></li>
+              	<li><a href="https://www.patreon.com/Empires" target="_blank"><img class="patreon_icon" align="middle" src="../img/patreon_logo.png" />Support us</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+        <div class="spacer">&nbsp;</div>
+        <div class="container post">
+    <h1>Empires 2.14 released</h1>
+    <p class="author">By Tama on October  7, 2017</p>
+
+    <p>Empires 2.14, released in September, brings a lot of changes and fixes to the table. The list below is compiled from <a href="https://wiki.empiresmod.com/Version/2.14.x">the wiki page</a>, which lists the changes and fixes for each patch version (up to the current 2.14.7). We hope you’ve been enjoying these changes already; feel free to let us know <a href="https://forums.empiresmod.com/index.php?threads/2-14-released.21061/">on the forums</a> or <a href="http://steamcommunity.com/app/17740">steampage</a>!</p>
+<h1 id="features">Features</h1>
+<ul>
+<li>Tank projectiles should now be predicted, so hopefully tanks stop hitting themselves.</li>
+<li>GUI tweaks</li>
+<li>More translatable texts</li>
+<li>Added tank weapon filter entity ([[emp_filter_activator_weaponname]])</li>
+<li>Added client side predicted shells for mortar and tanks.</li>
+<li>Added cvar to control vehicle carcass fade-out time.</li>
+<li>Revert to Base SDK style bullet force calculation. Previously it was a constant bullet force regardless of stance; now, crouch and prone stance will reduce these effects.</li>
+<li>Added team warnings when command vehicle takes environmental damage. (Drowning/flipped)</li>
+<li>Changes to how stamina discharges:</li>
+<li>Sprinting when ducked or prone will now drain less stamina. You’re not gaining the full sprint effect that you would if you were running normally, so it now matches your the speed gain.</li>
+<li>Sprinting will now only drain stamina if you’re pressing a forward/backwards key, are on the ground and are moving fast enough to actually activate sprint.</li>
+<li>Added some decals requested by mappers. (Team emblems and arrows to help better inform players)</li>
+<li>Added new models that are used in emp_crossroads.</li>
+</ul>
+<h1 id="bugfixes">Bugfixes</h1>
+<ul>
+<li>Fixed a crash involving turrets with no cannon.</li>
+<li>Fixed an issue with the commander warning HUD not hiding.</li>
+<li>Fixed a client-side crash relating to detail objects hiding under buildings.</li>
+<li>Fixed a crash related to commander building placement.</li>
+<li>Fixed an issue with machine gun weapons using the minimum damage as the maximum damage.</li>
+<li>mp_chattime is no longer multiplied by two.</li>
+<li>Fixed an issue with the 64th player being able to keep walking after round end.</li>
+<li>Fixed a lot of purple textures on Linux</li>
+<li>Fixed a remote code execution exploit related to server executed commands.</li>
+<li>Fixed tanks hitting themselves when shooting a shell at high speed.</li>
+<li>Fixed the create server dialog and Dedicated server GUI (SRCDS) configure tab.</li>
+<li>Fixed the ERRORNAME bug when rejoining a server.</li>
+<li>Fixed the server not restoring the player’s progress towards the next point awarded from recycling.</li>
+<li>Fixed binds not setting themselves correctly.</li>
+<li>Limited shell ‘invisible’ flight time to 150ms</li>
+<li>Fixed tank cannon sounds firing at the wrong time with predicted shells</li>
+<li>Fixed tank shake when firing cannons with prediction</li>
+<li>Fixed a bug with engineer recycle menu</li>
+<li>Fixed a bug causing chat to overlap with health bar</li>
+<li>Fixed a bug causing pre-placed engineer cameras to default to the armoury model</li>
+<li>Patched security vulnerability with source sdk detected by oneupsecurity</li>
+<li>Fixed a crash and a bug related to engineer camera recycle.</li>
+<li>Fixed a server freeze which would occur when turrets/cameras were removed at round end.</li>
+<li>Fixed a bug with MOTD buttons occasionally not working</li>
+<li>Updated default mapcycle.txt to reflect updated map names.</li>
+<li>Fixed a bug where the class selection text would still display even after choosing a class.</li>
+<li>Fixed a server crash related to rotating the commander view.</li>
+<li>Fixed a bug causing sprint to have no effect when using the speed upgrade skill.</li>
+<li>Fixed a bug that would prevent you from changing class or building vehicles if you were standing inside another player.</li>
+<li>Fixed a visual bug with the name displayed on certain achievements.</li>
+<li>Fixed some occurrences of key binds not executing.</li>
+<li>Fixed some incorrect movement speed values as of last patch.</li>
+<li>Fixed incorrect map names in the default map cycle files.</li>
+<li>Fixed the ladders on the map emp_coast.</li>
+<li>Changed the particle effect for Standard ML because it resembled blood splatter on lower settings.</li>
+<li>Changes have been made on the map emp_crossroads to address issues with vehicles getting stuck in the ramps.</li>
+<li>Fix to address key binds not executing properly.</li>
+</ul>
+<h1 id="script-changes">Script changes</h1>
+<ul>
+<li>3 phase engine for Medium and Heavy Tanks Heat Output At Max 3-&gt;4</li>
+<li>Enhanced Grenadier Missile Additional Damage 30-&gt;25</li>
+<li><p>APCR Grenadier Missile Additional Damage 30-&gt;25</p></li>
+<li>BE&amp;NF HMG Headshot Modifier 2-&gt;1.5</li>
+<li>BE&amp;NF 9mm Pistol Headshot Modifier 1.3-&gt;1.4</li>
+<li>BE Machine Pistol Headshot Modifier 2-&gt;1.4</li>
+<li>BE .44 Pistol Headshot Modifier 1.5-&gt;1.7</li>
+<li>BE Heavy Rifle Headshot Modifier 1.4-&gt;1.7</li>
+<li>BE Assault Rifle Headshot Modifier 1.5-&gt;1.7</li>
+<li>NF Assault Rifle Headshot Modifier 1.4-&gt;1.7</li>
+<li>BE&amp;NF Shotgun and shotty pistol Headshot Modifier 1.6-&gt;1.4</li>
+<li>NF SMG3 Headshot Modifier 1.4-&gt;1.7</li>
+<li><p>NF .50 cal Rifle Headshot Modifier 1.5-&gt;1.7</p></li>
+</ul>
+<h4 id="std-mg">Std MG</h4>
+<ul>
+<li>Damage 12-&gt;17</li>
+<li>Clip Size 50-&gt;60 (revert)</li>
+<li>MinimalDamage 10-&gt;13</li>
+<li>Falloff 1000-&gt;2000</li>
+</ul>
+<h4 id="bio-mg">Bio MG</h4>
+<ul>
+<li>Cycle Time 0.42-&gt;0.43</li>
+<li>Reload Time 3.5-&gt;4</li>
+<li><p>Vehicle Bio Time 3-&gt;2.8 (one less tick)</p></li>
+<li>DU MG Falloff 2500-&gt;3000</li>
+<li><p>DU HMG Falloff 2500-&gt;3000</p></li>
+</ul>
+<h4 id="cal-med">.50 cal med</h4>
+<ul>
+<li>Damage 15-&gt;20</li>
+<li>MinimalDamage 13-&gt;16</li>
+<li>Total Clips 3-&gt;4</li>
+<li>Reload Time 7.2-&gt;6.8</li>
+</ul>
+<h4 id="cal-heavy">.50 cal heavy</h4>
+<ul>
+<li>Damage 18-&gt;23</li>
+<li>Clip Size 100-&gt;120 (revert)</li>
+<li>MinimalDamage 15-&gt;19</li>
+</ul>
+<h4 id="chain-gun">Chain gun</h4>
+<ul>
+<li>Damage 11-&gt;14</li>
+<li>Cycle Time 0.043-&gt;0.04 (revert)</li>
+<li>Clip Size 120-&gt;125 (revert)</li>
+<li>MinimalDamage 8-&gt;11</li>
+<li>Falloff 1000-&gt;1500</li>
+<li>Falloffbase 0.7-&gt;0.75</li>
+</ul>
+<h4 id="medium-chain-gun">Medium Chain Gun</h4>
+<ul>
+<li>Damage 13-&gt;17</li>
+<li>Cycle Time 0.037-&gt;0.035 (revert)</li>
+<li>Clip Size 160-&gt;175 (revert)</li>
+<li>MinimalDamage 10-&gt;12</li>
+<li>Falloff 1000-&gt;1500</li>
+<li>Falloffbase 0.7-&gt;0.75</li>
+</ul>
+<h4 id="wages">Wages</h4>
+<ul>
+<li>Heal 15-&gt;13</li>
+<li>Repair 15-&gt;13</li>
+<li>Recycle 15-&gt;13</li>
+<li>Kill 20-&gt;18</li>
+<li>Sabotage 30-&gt;35</li>
+<li>Defuse 20-&gt;25</li>
+<li>Flag Capture 20-&gt;25</li>
+<li>Squad leader bonus 15-&gt;13</li>
+<li><p>Squad participation 15-&gt;13</p></li>
+<li>BE&amp;NF HMG Damage 28-&gt;19 Falloff 2000-&gt;3000 MinimalDamage 18-&gt;15</li>
+<li>BE Machine Pistol Damage 22-&gt;11 Falloff 800-&gt;1500 MinimalDamage 10-&gt;8</li>
+<li>BE&amp;NF 9mm pistol Damage 30-&gt;19 Falloff 1000-&gt;2500 MinimalDamage 17-&gt;12</li>
+<li>BE .44 Pistol Damage 55-&gt;37 Falloff 1200-&gt;2000 MinimalDamage 35-&gt;28</li>
+<li>BE Assault Rifle Damage 39-&gt;28 Falloff 2000-&gt;3500 MinimalDamage 28-&gt;22</li>
+<li><p>BE Heavy Rifle Damage 35-&gt;21 Falloff 2000-&gt;3500 MinimalDamage 20-&gt;16</p></li>
+</ul>
+<h4 id="benf-scoped-rifle">BE&amp;NF Scoped Rifle</h4>
+<ul>
+<li>Damage 70-&gt;60</li>
+<li>Falloff 1300-&gt;4000</li>
+<li>MinimalDamage 60-&gt;55</li>
+<li>Headshot Modifier 2.5-&gt;3 (to guarantee one headshot kill)</li>
+<li>DuckingSpread 0.0005-&gt;0.01</li>
+<li>ProneSpread 0.0005-&gt;0.005</li>
+<li>StandingSpreadIncrement 0.005-&gt;0.04</li>
+<li>DuckingSpreadIncrement 0.002-&gt;0.02</li>
+<li><p>ProneSpreadIncrement 0.002-&gt;0.01</p></li>
+<li>BE&amp;NF Shotgun Damage 22-&gt;12 Falloff 500-&gt;1250 MinimalDamage 10-&gt;9</li>
+<li>BE&amp;NF SMG1 Damage 30-&gt;17 Falloff 1500-&gt;2500 MinimalDamage 15-&gt;13</li>
+<li>BE&amp;NF SMG2 Damage 30-&gt;19 Falloff 1000-&gt;2000 MinimalDamage 15-&gt;13</li>
+<li>NF .50 cal Rifle Damage 57-&gt;43 Falloff 2200-&gt;3500 MinimalDamage 42-&gt;35</li>
+<li>NF Assault Rifle Damage 38-&gt;26 Falloff 1500-&gt;3000 MinimalDamage 25-&gt;18</li>
+<li>NF Buckshot pistol Damage 20-&gt;11 Falloff 250-&gt;1000 MinimalDamage 11-&gt;8</li>
+<li>NF SMG3 Damage 38-&gt;30 Falloff 1500-&gt;3000 MinimalDamage 29-&gt;23</li>
+<li>.50 cal med Total Clips 3-&gt;4 Reload Time 7.2-&gt;6.8</li>
+<li><p>.50 cal heavy Heat 0.8-&gt;0.9 Clip Size 100-&gt;110 Total Clips 3-&gt;4 Reload Time 9-&gt;7.5</p></li>
+</ul>
+<h4 id="bio-diesel-engine">Bio Diesel Engine</h4>
+<ul>
+<li>Jeep Max Reverse Speed 25-&gt;45</li>
+<li>APC Max Reverse Speed 35-&gt;40</li>
+<li>AFV/LT Max Reverse Speed 32-&gt;48</li>
+<li>Medium Tank Max Reverse Speed 33-&gt;39</li>
+<li>Heavy Tank Max Reverse Speed 23-&gt;29</li>
+<li><p>Artillery Tank Max Reverse Speed 20-&gt;28</p></li>
+<li>AFV/LT Max Reverse Speed 34-&gt;42 with Fission Reactor (fix for inconsistency)</li>
+<li><p>AFV/LT Max Reverse Speed 31-&gt;40 with Advanced Coolant Engine (fix for inconsistency)</p></li>
+</ul>
+<p><a href="https://forums.empiresmod.com/index.php?threads/2-14-released.21061">Discuss this on the forums.</a></p>
+</div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="../js/main.js" type="text/javascript"> </script>
+    </body>
+</html>
