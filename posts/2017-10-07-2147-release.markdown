@@ -1,0 +1,170 @@
+---
+title: Empires 2.14 released
+author: Tama
+---
+
+Empires 2.14, released in September, brings a lot of changes and fixes to the table. The list below is compiled from [the wiki page](https://wiki.empiresmod.com/Version/2.14.x), which lists the changes and fixes for each patch version (up to the current 2.14.7). We hope you've been enjoying these changes already; feel free to let us know [on the forums](https://forums.empiresmod.com/index.php?threads/2-14-released.21061/) or [steampage](http://steamcommunity.com/app/17740)!
+
+# Features
+* Tank projectiles should now be predicted, so hopefully tanks stop hitting themselves.
+* GUI tweaks
+* More translatable texts
+* Added tank weapon filter entity ([[emp_filter_activator_weaponname]])
+* Added client side predicted shells for mortar and tanks.
+* Added cvar to control vehicle carcass fade-out time.
+* Revert to Base SDK style bullet force calculation. Previously it was a constant bullet force regardless of stance; now, crouch and prone stance will reduce these effects.
+* Added team warnings when command vehicle takes environmental damage. (Drowning/flipped)
+* Changes to how stamina discharges:
+* Sprinting when ducked or prone will now drain less stamina. You're not gaining the full sprint effect that you would if you were running normally, so it now matches your the speed gain.
+* Sprinting will now only drain stamina if you're pressing a forward/backwards key, are on the ground and are moving fast enough to actually activate sprint.
+* Added some decals requested by mappers. (Team emblems and arrows to help better inform players)
+* Added new models that are used in emp_crossroads.
+
+# Bugfixes
+* Fixed a crash involving turrets with no cannon.
+* Fixed an issue with the commander warning HUD not hiding.
+* Fixed a client-side crash relating to detail objects hiding under buildings.
+* Fixed a crash related to commander building placement.
+* Fixed an issue with machine gun weapons using the minimum damage as the maximum damage.
+* mp_chattime is no longer multiplied by two.
+* Fixed an issue with the 64th player being able to keep walking after round end.
+* Fixed a lot of purple textures on Linux
+* Fixed a remote code execution exploit related to server executed commands.
+* Fixed tanks hitting themselves when shooting a shell at high speed.
+* Fixed the create server dialog and Dedicated server GUI (SRCDS) configure tab.
+* Fixed the ERRORNAME bug when rejoining a server.
+* Fixed the server not restoring the player's progress towards the next point awarded from recycling.
+* Fixed binds not setting themselves correctly.
+* Limited shell 'invisible' flight time to 150ms
+* Fixed tank cannon sounds firing at the wrong time with predicted shells
+* Fixed tank shake when firing cannons with prediction
+* Fixed a bug with engineer recycle menu
+* Fixed a bug causing chat to overlap with health bar
+* Fixed a bug causing pre-placed engineer cameras to default to the armoury model
+* Patched security vulnerability with source sdk detected by oneupsecurity
+* Fixed a crash and a bug related to engineer camera recycle.
+* Fixed a server freeze which would occur when turrets/cameras were removed at round end.
+* Fixed a bug with MOTD buttons occasionally not working
+* Updated default mapcycle.txt to reflect updated map names.
+* Fixed a bug where the class selection text would still display even after choosing a class.
+* Fixed a server crash related to rotating the commander view.
+* Fixed a bug causing sprint to have no effect when using the speed upgrade skill.
+* Fixed a bug that would prevent you  from changing class or building vehicles if you were standing inside another player.
+* Fixed a visual bug with the name displayed on certain achievements.
+* Fixed some occurrences of key binds not executing.
+* Fixed some incorrect movement speed values as of last patch.
+* Fixed incorrect map names in the default map cycle files.
+* Fixed the ladders on the map emp_coast.
+* Changed the particle effect for Standard ML because it resembled blood splatter on lower settings.
+* Changes have been made on the map emp_crossroads to address issues with vehicles getting stuck in the ramps.
+* Fix to address key binds not executing properly.
+
+# Script changes
+
+* 3 phase engine for Medium and Heavy Tanks Heat Output At Max 3->4
+* Enhanced Grenadier Missile Additional Damage 30->25
+* APCR Grenadier Missile Additional Damage 30->25
+
+* BE&NF HMG Headshot Modifier 2->1.5
+* BE&NF 9mm Pistol Headshot Modifier 1.3->1.4
+* BE Machine Pistol Headshot Modifier 2->1.4
+* BE .44 Pistol Headshot Modifier 1.5->1.7
+* BE Heavy Rifle Headshot Modifier 1.4->1.7
+* BE Assault Rifle Headshot Modifier 1.5->1.7
+* NF Assault Rifle Headshot Modifier 1.4->1.7
+* BE&NF Shotgun and shotty pistol Headshot Modifier 1.6->1.4
+* NF SMG3 Headshot Modifier 1.4->1.7
+* NF .50 cal Rifle Headshot Modifier 1.5->1.7
+
+#### Std MG
+* Damage 12->17
+* Clip Size 50->60 (revert)
+* MinimalDamage 10->13
+* Falloff 1000->2000
+
+#### Bio MG
+* Cycle Time 0.42->0.43
+* Reload Time 3.5->4
+* Vehicle Bio Time 3->2.8 (one less tick)
+
+* DU MG Falloff 2500->3000
+* DU HMG Falloff 2500->3000
+
+#### .50 cal med
+* Damage 15->20
+* MinimalDamage 13->16
+* Total Clips 3->4
+* Reload Time 7.2->6.8
+
+#### .50 cal heavy
+* Damage 18->23
+* Clip Size 100->120 (revert)
+* MinimalDamage 15->19
+
+#### Chain gun
+* Damage 11->14
+* Cycle Time 0.043->0.04 (revert)
+* Clip Size 120->125 (revert)
+* MinimalDamage 8->11
+* Falloff 1000->1500
+* Falloffbase 0.7->0.75
+
+#### Medium Chain Gun
+* Damage 13->17
+* Cycle Time 0.037->0.035 (revert)
+* Clip Size 160->175 (revert)
+* MinimalDamage 10->12
+* Falloff 1000->1500
+* Falloffbase 0.7->0.75
+
+#### Wages
+* Heal 15->13
+* Repair 15->13
+* Recycle 15->13
+* Kill 20->18
+* Sabotage 30->35
+* Defuse 20->25
+* Flag Capture 20->25
+* Squad leader bonus 15->13
+* Squad participation 15->13
+
+* BE&NF HMG Damage 28->19 Falloff 2000->3000 MinimalDamage 18->15
+* BE Machine Pistol Damage 22->11 Falloff 800->1500 MinimalDamage 10->8
+* BE&NF 9mm pistol Damage 30->19 Falloff 1000->2500 MinimalDamage 17->12
+* BE .44 Pistol Damage 55->37 Falloff 1200->2000 MinimalDamage 35->28
+* BE Assault Rifle Damage 39->28 Falloff 2000->3500 MinimalDamage 28->22
+* BE Heavy Rifle Damage 35->21 Falloff 2000->3500 MinimalDamage 20->16
+
+#### BE&NF Scoped Rifle
+* Damage 70->60
+* Falloff 1300->4000
+* MinimalDamage 60->55
+* Headshot Modifier 2.5->3 (to guarantee one headshot kill)
+* DuckingSpread 0.0005->0.01
+* ProneSpread 0.0005->0.005
+* StandingSpreadIncrement 0.005->0.04
+* DuckingSpreadIncrement 0.002->0.02
+* ProneSpreadIncrement 0.002->0.01
+
+* BE&NF Shotgun Damage 22->12 Falloff 500->1250 MinimalDamage 10->9
+* BE&NF SMG1 Damage 30->17 Falloff 1500->2500 MinimalDamage 15->13
+* BE&NF SMG2 Damage 30->19 Falloff 1000->2000 MinimalDamage 15->13
+* NF .50 cal Rifle Damage 57->43 Falloff 2200->3500 MinimalDamage 42->35
+* NF Assault Rifle Damage 38->26 Falloff 1500->3000 MinimalDamage 25->18
+* NF Buckshot pistol Damage 20->11 Falloff 250->1000 MinimalDamage 11->8
+* NF SMG3 Damage 38->30 Falloff 1500->3000 MinimalDamage 29->23
+* .50 cal med Total Clips 3->4 Reload Time 7.2->6.8
+* .50 cal heavy Heat 0.8->0.9 Clip Size 100->110 Total Clips 3->4 Reload Time 9->7.5
+
+#### Bio Diesel Engine
+* Jeep Max Reverse Speed 25->45
+* APC Max Reverse Speed 35->40
+* AFV/LT Max Reverse Speed 32->48
+* Medium Tank Max Reverse Speed 33->39
+* Heavy Tank Max Reverse Speed 23->29
+* Artillery Tank Max Reverse Speed 20->28
+
+* AFV/LT Max Reverse Speed 34->42 with Fission Reactor (fix for inconsistency)
+* AFV/LT Max Reverse Speed 31->40 with Advanced Coolant Engine (fix for inconsistency)
+
+[Discuss this on the forums.](https://forums.empiresmod.com/index.php?threads/2-14-released.21061)
