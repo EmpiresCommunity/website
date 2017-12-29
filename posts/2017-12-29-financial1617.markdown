@@ -1,0 +1,17 @@
+---
+title: Financial status 2016 - 2017
+author: Tama
+---
+
+This is a financial overview for 2017 and 2016, specifying the exact server costs we've paid and the amount received from <a href="https://www.patreon.com/Empires" target="_blank">our generous players through Patreon. Thanks again to all who donated.</a>
+
+The Empiresmod Foundation (KvK nr. 66445337) is a non-profit organisation founded in July 2016 for the purpose of keeping development of the mod going. Being a non-profit means we do not have to pay taxes, and binds us to the obligation of not seeking profits, nor ever accruing more assets than are reasonable for maintaining the game. Although the foundation is based in the Netherlands and operates in euro's, I've translated all values to USD, since that is what Patreon operates in, and what most of our players know.
+
+In December 2016 we started with a balance of $531.35, and the server costs were transferred to the Foundation.
+<a href="http://www.empiresmod.com/posts/2017-01-04-patreon.html" target="_blank">Donations through Patreon started in February 2017</a>; so far, $648.50 has been donated through Patreon, of which we received $559.74. The difference is due to three charges; Patreon's 5% cut, the 7.83% payment processing fee for collecting from patrons, and the 1% paypal processing fee.
+
+That gives a total of $1091.10, from which the server costs of $652.35 were paid, which comes down to $50.18 per month. Note that's 13 months, from dec. 2016 to dec. 2017 - next year's overview will be a lot simpler.
+
+The final balance should come to $438.76, but due to exchange rate changes between the dollar and the euro, actually ends up at $508.35. Taking into account that we started the patreon page two months after the first bill came in, this means we're breaking even, and with your contributions, can continue volunteering for Empiresmod for many years to come.
+
+<a href="http://forums.empiresmod.com" target="_blank">Questions? Ask on the forums.</a>
