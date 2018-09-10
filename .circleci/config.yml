@@ -8,11 +8,8 @@ jobs:
       CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
       CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
     docker:
-    - image: ubuntu:14.04
+    - image: ubuntu:16.04
     steps:
-    - run: apt-get update
-    - run: apt-get --yes install software-properties-common
-    - run: add-apt-repository universe
     - run: apt-get update
     - run: apt-get --yes install cabal-install haskell-stack
     - run:
