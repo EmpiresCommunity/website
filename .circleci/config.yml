@@ -17,7 +17,7 @@ jobs:
         working_directory: ~/EmpiresCommunity/website
         command: echo -e "export PATH=/opt/ghc/7.8.4/bin:$PATH" >> $BASH_ENV
     - run: cabal update
-    - run: cabal install --dependencies-only --avoid-reinstalls
+    - run: cabal install --dependencies-only --avoid-reinstalls --solver=topdown
     - run: cabal build
     - run: cabal test --show-details=always
     - run: make
