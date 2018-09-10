@@ -8,22 +8,9 @@ jobs:
       CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
       CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
     docker:
-    - image: ubuntu:12.04
+    - image: ubuntu:14.04
     steps:
     - run: apt-get update
-    - run:
-        working_directory: ~/EmpiresCommunity/website
-        command: update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 20
-    - run:
-        working_directory: ~/EmpiresCommunity/website
-        command: update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.6 20
-    - run:
-        working_directory: ~/EmpiresCommunity/website
-        command: update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 10
-    - run:
-        working_directory: ~/EmpiresCommunity/website
-        command: update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
-    # This is based on your 1.0 configuration file or project settings
     - run:
         working_directory: ~/EmpiresCommunity/website
         command: echo -e "export PATH=/opt/ghc/7.8.4/bin:$PATH" >> $BASH_ENV
