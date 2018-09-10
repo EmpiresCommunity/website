@@ -8,7 +8,7 @@ jobs:
       CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
       CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
     docker:
-    - image: ubuntu:10.04
+    - image: ubuntu:12.04
     steps:
     - run: sudo apt-get update
     - run:
