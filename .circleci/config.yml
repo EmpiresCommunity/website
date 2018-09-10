@@ -10,19 +10,19 @@ jobs:
     docker:
     - image: ubuntu:12.04
     steps:
-    - run: sudo apt-get update
+    - run: apt-get update
     - run:
         working_directory: ~/EmpiresCommunity/website
-        command: sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 20
+        command: update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 20
     - run:
         working_directory: ~/EmpiresCommunity/website
-        command: sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.6 20
+        command: update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.6 20
     - run:
         working_directory: ~/EmpiresCommunity/website
-        command: sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 10
+        command: update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 10
     - run:
         working_directory: ~/EmpiresCommunity/website
-        command: sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
+        command: update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
     # This is based on your 1.0 configuration file or project settings
     - run:
         working_directory: ~/EmpiresCommunity/website
