@@ -8,7 +8,7 @@ jobs:
       CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
       CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
     docker:
-    - image: ubuntu:16.04
+    - image: ubuntu:18.04
     steps:
     - checkout
     - run: apt-get update
