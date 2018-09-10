@@ -10,6 +10,7 @@ jobs:
     docker:
     - image: ubuntu:14.04
     steps:
+    - run: add-apt-repository universe
     - run: apt-get update
     - run: apt-get --yes install cabal-install haskell-stack
     - run:
