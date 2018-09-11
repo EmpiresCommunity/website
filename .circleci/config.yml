@@ -18,9 +18,8 @@ jobs:
     - run:
         working_directory: ~/EmpiresCommunity/website/_site
         command: git checkout gh-pages
-#    - run: 
-#        working_directory: ~/EmpiresCommunity/website/_site
-#        command: git clean -fxd && git checkout gh-pages
+    - run: git config --global user.email "info@empiresmod.com"
+    - run: git config --global user.name "Empires Website Builder"
     - run: cabal update
     #- run: cabal install --dependencies-only --avoid-reinstalls --reorder-goals
     - run: stack setup
