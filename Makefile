@@ -7,7 +7,6 @@ site: site.hs
 	stack build
 
 deploy:
-	git clone .git _site
 	cd _site && git checkout -- . && git clean -df
 	cd _site && git checkout -B gh-pages origin/gh-pages
 	rm _site/* -rf

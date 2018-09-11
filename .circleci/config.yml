@@ -13,6 +13,7 @@ jobs:
     - checkout
     - run: apt-get update
     - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git
+    - git clone .git _site
     - run:
         working_directory: ~/EmpiresCommunity/website
         command: echo -e "export PATH=/opt/ghc/7.8.4/bin:$PATH" >> $BASH_ENV
