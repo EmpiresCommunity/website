@@ -13,8 +13,11 @@ jobs:
     - run: apt-get update
     - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git
     - checkout
-    - run: git fetch origin gh-pages
-    - run: git clone --branch gh-pages .git _site
+    - run: git fetch
+    - run: cp -r .git _site
+    - run:
+        working_directory: ~/EmpiresCommunity/website/_site
+        command: git checkout gh-pages
 #    - run: 
 #        working_directory: ~/EmpiresCommunity/website/_site
 #        command: git clean -fxd && git checkout gh-pages
