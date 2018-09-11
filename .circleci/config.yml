@@ -1,0 +1,42 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/EmpiresCommunity/website
+    parallelism: 1
+    shell: /bin/bash --login
+    environment:
+      CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
+      CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
+    docker:
+    - image: ubuntu:18.04
+    steps:
+    - run: apt-get update
+    - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git
+    - add_ssh_keys
+    - checkout
+    - run: git fetch
+    - run: cp -r .git _site
+    - run:
+        working_directory: ~/EmpiresCommunity/website/_site
+        command: git checkout gh-pages
+    - run: git config --global user.email "info@empiresmod.com"
+    - run: git config --global user.name "Empires Website Builder"
+    - run: cabal update
+    #- run: cabal install --dependencies-only --avoid-reinstalls --reorder-goals
+    - run: stack setup
+    - run: echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
+    - run: locale-gen; locale -a
+    #- run: cabal build
+    #- run: cabal test --show-details=always
+    - run: LANG=en_US.UTF-8 make
+    - run: LANG=en_US.UTF-8 make deploy
+    # Teardown
+    #   If you break your build into multiple jobs with workflows, you will probably want to do the parts of this that are relevant in each
+    # Save test results
+    - store_test_results:
+        path: /tmp/circleci-test-results
+    # Save artifacts
+    - store_artifacts:
+        path: /tmp/circleci-artifacts
+    - store_artifacts:
+        path: /tmp/circleci-test-results
