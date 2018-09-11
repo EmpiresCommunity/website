@@ -12,6 +12,7 @@ jobs:
     steps:
     - run: apt-get update
     - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git
+    - add_ssh_keys
     - checkout
     - run: git fetch
     - run: cp -r .git _site
