@@ -19,6 +19,7 @@ jobs:
     - run: cabal update
     #- run: cabal install --dependencies-only --avoid-reinstalls --reorder-goals
     - run: stack setup
+    - run: locale-gen
     #- run: cabal build
     #- run: cabal test --show-details=always
     - run: LANG=en_US.UTF-8 make
