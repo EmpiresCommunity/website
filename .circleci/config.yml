@@ -13,10 +13,10 @@ jobs:
     - checkout
     - run: apt-get update
     - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git
-    - run: git clone .git _site
-    - run: 
-        working_directory: ~/EmpiresCommunity/website/_site
-        command: git clean -fxd && git checkout gh-pages
+    - run: git clone --branch gh-pages .git _site
+#    - run: 
+#        working_directory: ~/EmpiresCommunity/website/_site
+#        command: git clean -fxd && git checkout gh-pages
     - run: cabal update
     #- run: cabal install --dependencies-only --avoid-reinstalls --reorder-goals
     - run: stack setup
