@@ -12,16 +12,17 @@ jobs:
     steps:
     - checkout
     - run: apt-get update
-    - run: apt-get --yes install cabal-install haskell-stack
+    - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase
     - run:
         working_directory: ~/EmpiresCommunity/website
         command: echo -e "export PATH=/opt/ghc/7.8.4/bin:$PATH" >> $BASH_ENV
     - run: cabal update
-    - run: cabal install --dependencies-only --avoid-reinstalls --reorder-goals
-    - run: cabal build
-    - run: cabal test --show-details=always
-    - run: make
-    - run: make deploy
+    #- run: cabal install --dependencies-only --avoid-reinstalls --reorder-goals
+    - run: stack setup
+    #- run: cabal build
+    #- run: cabal test --show-details=always
+    - run: LANG=en_US.UTF-8 make
+    - run: LANG=en_US.UTF-8 make deploy
     # Teardown
     #   If you break your build into multiple jobs with workflows, you will probably want to do the parts of this that are relevant in each
     # Save test results
