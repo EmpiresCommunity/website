@@ -10,9 +10,9 @@ jobs:
     docker:
     - image: ubuntu:18.04
     steps:
-    - checkout
     - run: apt-get update
     - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git
+    - checkout
     - run: git fetch origin gh-pages
     - run: git clone --branch gh-pages .git _site
 #    - run: 
