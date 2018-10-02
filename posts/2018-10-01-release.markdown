@@ -1,0 +1,11 @@
+---
+title: Empires 2.15.10 release October 2018
+author: thexa4
+---
+
+#Empires 2.15.10 update details.
+
+See the Wiki page for a list of fixes and updates inlcuded in this version as well as earlier 2.15.x releases.<br>
+Details on [the wiki page].(https://wiki.empiresmod.com/Version/2.15.x)<br>
+Visit us [on the forums].(https://forums.empiresmod.com/index.php)<br>
+Or check out the [steampage].(http://steamcommunity.com/app/17740)<br>
