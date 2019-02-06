@@ -1,1 +1,4 @@
-resolver: lts-2.22
+resolver: lts-13.6
+extra-deps:
+- lrucache-1.2.0.1
+- hakyll-4.12.5.1

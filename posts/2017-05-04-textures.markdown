@@ -1,5 +1,5 @@
 ---
-title: A new goal: polish
+title: "A new goal: polish"
 author: Tama
 ---
 

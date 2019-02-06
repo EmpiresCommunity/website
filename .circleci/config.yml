@@ -11,7 +11,8 @@ jobs:
     - image: ubuntu:18.04
     steps:
     - run: apt-get update
-    - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git
+    - run: apt-get --yes install cabal-install haskell-stack libz-dev netbase locales git curl
+    - run: curl -sSL https://get.haskellstack.org/ | sh -s - -f
     - add_ssh_keys
     - checkout
     - run: git fetch
