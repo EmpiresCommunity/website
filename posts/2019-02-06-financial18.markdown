@@ -1,0 +1,27 @@
+---
+title: Financial status 2018
+author: Tama
+---
+
+This is a financial overview for 2018, specifying the exact server costs we've paid and the amount received from <a href="https://www.patreon.com/Empires" target="_blank">our generous players through Patreon. Thanks again to all who donated.</a>
+
+The Empiresmod Foundation (KvK nr. 66445337) is a non-profit organisation founded in July 2016 for the purpose of keeping development of the mod going. Being a non-profit means we do not have to pay taxes, and binds us to the obligation of not seeking profits, nor ever accruing more assets than are reasonable for maintaining the game. Although the foundation is based in the Netherlands and operates in euro's, I've translated all values to USD, since that is what Patreon operates in, and what most of our players know.
+
+2018 started with a balance of $508.35. $616.44 has been donated through Patreon, of which we received $543.72. The difference is due to Patreon's cut, which changed twice in 2018 and is now 5.02%, and the 6.52% payment processing fee for collecting from patrons, which changed four times in 2018. I should note that patreon's cost reforms in 2018 have ended up increasing our total share to 88.46%.
+
+That gives a total of $1052.07, from which the server costs of $568.66. were paid, which comes down to $47.39. per month. We currently receive $42.57 per month. Factoring in the exchange rate changes between the dollar and the euro, the final balance as of January 1st 2019 is $483.41, which means we can suffer that loss until 2027. Hopefully, we will get a little more donation before that time.
+
+Finally, some fun charts. First, the amounts pledged:
+
+<a href="https://www.empiresmod.com/img/patronage_to_2019.png" target="_blank"><img src="/img/patronage_to_2019.png" width="100%"></img></a>
+
+Next, the earnings. Note three things; first, the pledges at the end of each month shown above make up the
+earnings of the next month in the earnings chart below; second, the gap between the two corresponds
+more or less to our 88.46% that patreon passes on to us; third, the paypal fee of 1% still needs to
+come out of this to read our actual earnings.
+
+<a href="https://www.empiresmod.com/img/earnings_to_2019.png" target="_blank"><img src="/img/earnings_to_2019.png" width="100%"></img></a>
+
+---
+<a href="https://forums.empiresmod.com/index.php?threads/x" target="_blank">Questions? Ask on the forums.</a>
+---
