@@ -10,4 +10,5 @@
 /_cache/
 /.cabal-sandbox/
 /.stack-work/
+/stack.yaml.lock
 
