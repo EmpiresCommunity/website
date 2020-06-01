@@ -88,10 +88,7 @@
     <p class="author">By Tama on November  3, 2016</p>
 
     <p>By default, there’s just a tiny little chat window that only shows up when you type T or Y to talk, has limited scrolling and no filtering options. Today I used some unix tools to build myself a proper chat client to use while playing Empires. It should work for any Source engine game, and gives you a fullscreen, scrollable window to put on a second screen, that gives you a notification popup when your name is mentioned in chat.</p>
-<div class="figure">
-<img src="http://i.imgur.com/lAXbG7s.gif" title="The chat client (early version)" />
-
-</div>
+<p><img src="http://i.imgur.com/lAXbG7s.gif" title="The chat client (early version)" /></p>
 <h1 id="how-it-works">How it works</h1>
 <p>If -condebug is passed, Empires will output the console’s output to the empires/console.log file. (To add -condebug, right click Empires in steam, click “Properties” and then “Set Launch Options”) By ‘tailing’ this file, we can extract the chat and any mentions of us.</p>
 <p>To run emp_chat, copy the script below into a directory in your $PATH, and run it from the terminal while Empires is running. The first grep will select and print from the real beginning of a chat line (some of them begin with some garbage, hence the -o to suppress that), and if that doesn’t match, ignore the rest of the loop. Then we do a similar grep using whatever parameters were passed to see if we got mentioned. If so, split up the line into sender name and message, so that notify-send can be invoked, which gives me a nice popup on the bottom of my screen with the message.</p>
@@ -119,16 +116,8 @@ done)</code></pre>
 <p>And name each one - the red highlighting will tell you to switch to that pane, and it will only list all the requests for refs and raxes.</p>
 <h1 id="expanding-on-this">Expanding on this</h1>
 <p>There’s a lot of useful information about what is happening in the game in the console.log file; below is an extract from one, showing a mapswitch. Currently, I am just looking at chat, but you could also feasibly create a fullscreen map with some extra information drawn on top, completely outside of the game.</p>
-<div class="figure">
-<img src="http://i.imgur.com/qU47KGt.gif" title="An example console log" />
-
-</div>
-<p>The script above is hosted in <a href="https://github.com/TamaHobbit/dotfiles">my dotfiles repository</a>, so you can comment there if you have useful additions, or <script type="text/javascript">
-<!--
-h='&#x65;&#x6d;&#112;&#x69;&#114;&#x65;&#x73;&#x6d;&#x6f;&#100;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#116;&#x61;&#x6d;&#x61;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'email tama@empiresmod.com'+'<\/'+'a'+'>');
-// -->
-</script><noscript>email tama@empiresmod.com (tama at empiresmod dot com)</noscript> if you have something way cooler I should be using.</p>
+<p><img src="http://i.imgur.com/qU47KGt.gif" title="An example console log" /></p>
+<p>The script above is hosted in <a href="https://github.com/TamaHobbit/dotfiles">my dotfiles repository</a>, so you can comment there if you have useful additions, or <a href="mailto:tama@empiresmod.com">email tama@empiresmod.com</a> if you have something way cooler I should be using.</p>
 </div>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="../js/main.js" type="text/javascript"> </script>
