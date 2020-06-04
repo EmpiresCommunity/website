@@ -22,3 +22,9 @@
 	height: 1.2em;
 	width: 1.2em;
 }
+
+.post img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
