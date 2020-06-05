@@ -4,6 +4,7 @@
 /cabal.sandbox.config
 
 /site
+/_site
 /site.exe
 /site.hi
 /site.o
