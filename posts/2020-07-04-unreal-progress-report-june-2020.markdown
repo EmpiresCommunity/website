@@ -67,6 +67,8 @@ Roadmap:
 
 Completed tracks:
 
+_Alliance_: 
+
 <audio
         controls
         src="../img/june2020update/Alliance.wav">
@@ -74,7 +76,9 @@ Completed tracks:
             <code>audio</code> element.
 </audio>
 
-_Alliance_
+
+
+_Start_: 
 
 <audio
         controls
@@ -82,7 +86,9 @@ _Alliance_
             Your browser does not support the
             <code>audio</code> element.
 </audio>
-_Start_
+
+
+_Victory_: 
 
 <audio
         controls
@@ -90,7 +96,9 @@ _Start_
             Your browser does not support the
             <code>audio</code> element.
 </audio>
-_Victory_
+
+
+_Valiance_: 
 
 <audio
         controls
@@ -98,7 +106,9 @@ _Victory_
             Your browser does not support the
             <code>audio</code> element.
 </audio>
-_Valiance_
+
+
+_In Distress_: 
 
 <audio
         controls
@@ -106,7 +116,7 @@ _Valiance_
             Your browser does not support the
             <code>audio</code> element.
 </audio>
-_In Distress_
+
 
 I realize there’s a LOT left to be worked on based on that list, but I am confident in completing it for this port. Unfortunately, my work situation has rapidly deteriorated in the past few weeks due to COVID however, so it will be an ongoing process while I attempt to solidify that and other aspects of my life. 
 
