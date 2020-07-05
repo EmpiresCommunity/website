@@ -71,7 +71,7 @@ _Alliance_:
 
 <audio
         controls
-        src="../img/june2020update/Alliance.wav">
+        src="../img/june2020update/Alliance.mp3">
             Your browser does not support the
             <code>audio</code> element.
 </audio>
@@ -82,7 +82,7 @@ _Start_:
 
 <audio
         controls
-        src="../img/june2020update/Start.wav">
+        src="../img/june2020update/Start.mp3">
             Your browser does not support the
             <code>audio</code> element.
 </audio>
@@ -92,7 +92,7 @@ _Victory_:
 
 <audio
         controls
-        src="../img/june2020update/Victory.wav">
+        src="../img/june2020update/Victory.mp3">
             Your browser does not support the
             <code>audio</code> element.
 </audio>
@@ -102,7 +102,7 @@ _Valiance_:
 
 <audio
         controls
-        src="../img/june2020update/Valiance.wav">
+        src="../img/june2020update/Valiance.mp3">
             Your browser does not support the
             <code>audio</code> element.
 </audio>
@@ -112,7 +112,7 @@ _In Distress_:
 
 <audio
         controls
-        src="../img/june2020update/InDistress.wav">
+        src="../img/june2020update/InDistress.mp3">
             Your browser does not support the
             <code>audio</code> element.
 </audio>
