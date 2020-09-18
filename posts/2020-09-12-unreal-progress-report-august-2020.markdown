@@ -167,4 +167,4 @@ _Render of a NF Frag Grenade_
 [NF_art5]: ../img/aug2020update/NF_art5.jpg
 [NF_art6]: ../img/aug2020update/NF_art6.jpg
 [NF_art7]: ../img/aug2020update/NF_art7.jpg
-[scritpablerecoil]: ../img/aug2020update/scriptablerecoil.png.png
+[scritpablerecoil]: ../img/aug2020update/scriptablerecoil.png
