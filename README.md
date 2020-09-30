@@ -27,7 +27,7 @@ stack install hakyll
 make
 ```
 
-That will place a working copy of the website into /_site/, below wherever you cloned this repository. For example, if you cloned into `C:\Empiresmod\website`, then you can put `/C:/Empiresmod/website/_site/index.html` into your browser's url bar; but if you're running linux, what you put into the url bar should look like: `file:///home/you/empires/website/_site/index.html`
+This will place a working copy of the website into /_site/, below wherever you cloned this repository. For example, if you are going to clone into `C:\Empiresmod\website`, then you can put `/C:/Empiresmod/website/_site/index.html` into your browser's url bar; but if you're running linux, what you put into the url bar should look like: `file:///home/you/empires/website/_site/index.html`
 
 ## Deploy
 
@@ -35,4 +35,4 @@ Run `make deploy` when you are happy with the changes; that deploys to empiresmo
 
 ## Stuck?
 
-If you get stuck trying to follow these steps, [open an issue](https://github.com/EmpiresCommunity/website/issues/new).
+If you get stuck try to follow these steps, [open an issue](https://github.com/EmpiresCommunity/website/issues/new).
