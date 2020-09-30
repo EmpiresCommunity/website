@@ -36,3 +36,4 @@ Run `make deploy` when you are happy with the changes; that deploys to empiresmo
 ## Stuck?
 
 If you get stuck trying to follow these steps, [open an issue](https://github.com/EmpiresCommunity/website/issues/new).
+## use class and id for syle your site
