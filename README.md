@@ -2,7 +2,7 @@
 
 The main page for [Empiresmod, a free indie RTS/FPS game](http://www.empiresmod.com/) - free open source software built with Hakyll.
 
-Note: The steps for building the website locally currently only work on Linux - you can still write and submit pull requests from Windows, it just means you cannot review changes, seeing them as they would appear online.
+Note: The steps for building the website locally currently only will work on Linux - you can still write and submit pull requests from Windows, it just means you cannot review changes, seeing them as they would appear online.
 
 # Clone this repository
 
@@ -35,4 +35,4 @@ Run `make deploy` when you are happy with the changes; that deploys to empiresmo
 
 ## Stuck?
 
-If you get stuck trying to follow these steps, [open an issue](https://github.com/EmpiresCommunity/website/issues/new).
+If you get stuck on anything try to follow these steps, [to open an issue](https://github.com/EmpiresCommunity/website/issues/new).
