@@ -131,11 +131,11 @@ You can export assets out of the Unreal editor. Most kinds of 3D data will be ex
 <p><img src="../img/july2020update/glycen1.jpg" /></p>
 <p>All of the materials and models have come in and at the correct scale. There are a few missing brushes, the normals on the displacements are screwed up, and none of the decals have come through (some of the buildings use decals for the windows), but it’s good enough for a reference. Once the remaster is done, the imported map and assets will be deleted to ensure they don’t accidentally make it into a build.</p>
 <p>Most of the map’s terrain consists of displacements, with the buildings being made out of brushes. Terrain in UE4 is best achieved using landscapes, so I set out to convert the displacements to a single large landscape. Here you can see the imported map with only displacement geometry.</p>
-<p><img src="../img/july2020update/glycen2.png" /></p>
+<p><img src="../img/july2020update/glycen2.jpg" /></p>
 <p>There are plenty of holes where buildings are placed, but coverage is generally pretty good, and there are not too many cases of layering (displacements on top of other displacements). I decided to write a script that would go through each point on a landscape, and sample the displacements to figure out the correct height.</p>
 <p><img src="../img/july2020update/glycen3.jpg" /></p>
 <p>The initial version of the script went pretty well. You can see it’s working great for areas covered by displacements, but there are some enormous pits generated where there are holes, as it failed to trace against anything and returned a sample height of 0. So, I amended the script to select the nearest valid height for points where it failed to trace anything.</p>
-<p><img src="../img/july2020update/glycen4.png" /></p>
+<p><img src="../img/july2020update/glycen4.jpg" /></p>
 <p>Much better, although you can still see harsh drops on the outside of the map, so I re-enabled the brush geometry for reference and set out to clean up the edges. This was largely accomplished using the ramp tool to create ramps from the tops of the edges to the flat areas, and smoothing it all over with the smooth tool. I also went around the perimeter of the play area and added some more taller hills, to give the background some more depth. I didn’t spend too much time on this, as I’m not sure yet how many more buildings I want to add to the skyline, and any fine details would likely depend on the material being used.</p>
 <p><img src="../img/july2020update/glycen5.png" /></p>
 <p>I’m not too worried about players escaping the play area yet - this is something that can be solved later. Refining the landscape will likely be an ongoing task as I add buildings and more details to the map.</p>
