@@ -5,4 +5,6 @@ author: Tama
 
 ### Handpicked Action games
 
-Gameskeys.net maintains a list of their top picks in the Action category [here](https://gameskeys.net/handpicked-action-games/), which includes Empiresmod.
+The Empiresmod team wants to thank Casen Aaden for adding Empiresmod to the list of 'top picks' on Gameskeys.net. [You can find it here](https://gameskeys.net/handpicked-action-games/). Casen plans to post a review for the game soon as well. Good luck! We hope it helps people to find their way into our servers.
+
+
